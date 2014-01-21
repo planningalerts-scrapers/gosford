@@ -1,3 +1,4 @@
+require 'scraperwiki'
 require 'mechanize'
 
 url = "https://ecouncil.gosford.nsw.gov.au/eservice/advertisedDAs.do?function_id=521&orderBy=suburb&nodeNum=263"
@@ -32,7 +33,7 @@ page.at('.bodypanel').children.each do |c|
       'on_notice_from' => c.search('tr')[4].search('td')[2].inner_text.split(' ')[0].split('/').reverse.join('-'),
       'on_notice_to' => c.search('tr')[4].search('td')[2].inner_text.split(' ')[-1].split('/').reverse.join('-'),
     }
-    if (ScraperWiki.select("* from swdata where `council_reference`='#{record['council_reference']}'").empty? rescue true)
+    if (ScraperWiki.select("* from data where `council_reference`='#{record['council_reference']}'").empty? rescue true)
       ScraperWiki.save_sqlite(['council_reference'], record)
     else
       puts "Skipping already saved record " + record['council_reference']
