@@ -9,11 +9,6 @@ end
 
 agent = Mechanize.new
 
-# Doing this as a workaround because there don't appear to be root certificates for Ruby 1.9 installed on
-# Scraperwiki. Doesn't really make any difference because we're not sending anything requiring any kind
-# of security back and forth
-agent.verify_mode = OpenSSL::SSL::VERIFY_NONE
-
 page = agent.get(url)
 
 suburb = nil
@@ -43,4 +38,4 @@ page.at('.bodypanel').children.each do |c|
   else
     raise "Unexpected tag #{c.name} with content #{c}"
   end
-end 
+end
