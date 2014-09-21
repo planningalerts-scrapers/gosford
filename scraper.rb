@@ -1,41 +1,34 @@
-require 'scraperwiki'
 require 'mechanize'
+require 'scraperwiki'
 
-url = "https://ecouncil.gosford.nsw.gov.au/eservice/advertisedDAs.do?function_id=521&orderBy=suburb&nodeNum=263"
-
-def clean(text)
-  text.squeeze(' ').strip
-end
+# XML feed of the applications submitted in the last month
+base_url = "https://plan.gosford.nsw.gov.au/Pages/XC.Track"
+url = base_url + "/SearchApplication.aspx?o=xml&d=thismonth&k=LodgementDate"
 
 agent = Mechanize.new
-
-page = agent.get(url)
-
-suburb = nil
-
-page.at('.bodypanel').children.each do |c|
-  case c.name
-  when "h4"
-    suburb =  clean(c.inner_text) + ", NSW"
-  when "table"
-    record = {
-      'council_reference' => clean(c.search('tr')[3].search('td')[2].inner_text),
-      'address' => clean(c.at('td.current-development-applications').inner_text) + ", " + suburb,
-      'description' => c.search('td[colspan="2"]')[0].inner_text,
-      'info_url' => url,
-      'comment_url' => 'mailto:da.submissions@gosford.nsw.gov.au',
-      'date_scraped' => Date.today.to_s,
-      'on_notice_from' => c.search('tr')[4].search('td')[2].inner_text.split(' ')[0].split('/').reverse.join('-'),
-      'on_notice_to' => c.search('tr')[4].search('td')[2].inner_text.split(' ')[-1].split('/').reverse.join('-'),
-    }
-    if (ScraperWiki.select("* from data where `council_reference`='#{record['council_reference']}'").empty? rescue true)
-      ScraperWiki.save_sqlite(['council_reference'], record)
-    else
-      puts "Skipping already saved record " + record['council_reference']
-    end
-  when "text", "comment", "script"
-    # Do nothing
+page = Nokogiri::XML(agent.get(url).body)
+page.search("Application").each do |app|
+  record = {
+    "council_reference" => app.at('ReferenceNumber').inner_text,
+    "date_received" => Date.parse(app.at('LodgementDate').inner_text).to_s,
+    "date_scraped" => Date.today.to_s
+  }
+  record["info_url"] =  base_url + "/SearchApplication.aspx?id=" + record["council_reference"]
+  record["comment_url"] = base_url + "/Submission.aspx?id=" + record['council_reference']
+  # Only use the first address
+  record["address"] = app.at('Address Line1').inner_text + ", " + app.at('Address Line2').inner_text
+  # Some DAs have good descriptions whilst others just have
+  # "<insert here>" so we search for "<insert" and if it's there we
+  # use another more basic description
+  if app.at('ApplicationDetails').nil? || app.at('ApplicationDetails').inner_text.downcase.index(/(<|\()insert/)
+    record["description"] = app.at('NatureOfApplication').inner_text
   else
-    raise "Unexpected tag #{c.name} with content #{c}"
+    record["description"] = app.at('ApplicationDetails').inner_text
+  end
+  #p record
+  if (ScraperWiki.select("* from data where `council_reference`='#{record['council_reference']}'").empty? rescue true)
+  ScraperWiki.save_sqlite(['council_reference'], record)
+  else
+  puts "Skipping already saved record " + record['council_reference']
   end
 end
