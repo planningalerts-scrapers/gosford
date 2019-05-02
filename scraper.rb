@@ -26,9 +26,5 @@ page.search("Application").each do |app|
     record["description"] = app.at('ApplicationDetails').inner_text
   end
   #p record
-  if (ScraperWiki.select("* from data where `council_reference`='#{record['council_reference']}'").empty? rescue true)
   ScraperWiki.save_sqlite(['council_reference'], record)
-  else
-  puts "Skipping already saved record " + record['council_reference']
-  end
 end
