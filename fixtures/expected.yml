@@ -3,35 +3,30 @@
   date_received: '2019-06-04'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2019.00056630.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=010.2019.00056630.001 '
   address: 13  Lynnette Crescent, EAST GOSFORD NSW 2250
   description: 'Shed '
 - council_reference: '010.2019.00056633.001 '
   date_received: '2019-06-04'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2019.00056633.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=010.2019.00056633.001 '
   address: 9  Huntly Road, BENSVILLE NSW 2251
   description: 'Swimming Pool In-ground '
 - council_reference: '010.2019.00056634.001 '
   date_received: '2019-06-04'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2019.00056634.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=010.2019.00056634.001 '
   address: 13  Day Street, WYOMING NSW 2250
   description: 'Patio Awning '
 - council_reference: '010.2019.00056635.001 '
   date_received: '2019-06-04'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2019.00056635.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=010.2019.00056635.001 '
   address: 21  Samantha Crescent, KINCUMBER NSW 2251
   description: 'Alterations & Additions to Established Extra Bedroom + Robe & Ensuite '
 - council_reference: '011.2002.00015517.015 '
   date_received: '2019-06-03'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2002.00015517.015 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=011.2002.00015517.015 '
   address: 86  John Whiteway Drive, GOSFORD NSW 2250
   description: 'Section 4.55 Amendment - Removal of Level 11, Addition of Part Storey
     to Buildings A & B, Adjustment Floor to Floor Heights & Various Minor Amendments '
@@ -39,7 +34,6 @@
   date_received: '2019-06-04'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2008.00035528.002 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=011.2008.00035528.002 '
   address: 26  Horsfield Road, HORSFIELD BAY NSW 2256
   description: 'Section 4.55 Amendment - Provide Internal Access to Storage & Re-Configure
     Hallway '
@@ -47,7 +41,6 @@
   date_received: '2019-06-05'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2015.00048475.004 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=011.2015.00048475.004 '
   address: 1  Shortland Street, POINT FREDERICK NSW 2250
   description: 'Section 4.55 Amendment - Amended Plans & Modification to Conditions
     2.6 & 2.12 '
@@ -55,21 +48,18 @@
   date_received: '2019-06-06'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2016.00049309.002 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=011.2016.00049309.002 '
   address: 66  Scenic Highway, TERRIGAL NSW 2260
   description: 'Section 4.55 - Amended Plans '
 - council_reference: '011.2016.00050816.002 '
   date_received: '2019-06-06'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2016.00050816.002 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=011.2016.00050816.002 '
   address: 770  Oyster Shell Road, MANGROVE CREEK NSW 2250
   description: 'Section 4.55 - Swimming Pool Location & Material Change '
 - council_reference: '011.2016.00051308.004 '
   date_received: '2019-06-03'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2016.00051308.004 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=011.2016.00051308.004 '
   address: " Bell Road, MANGROVE MOUNTAIN NSW 2250"
   description: 'Section 4.55(1A) Amendment - Relocate Approved Facility for Toilets,
     Septic Tank, Trench System & Water Tanks '
@@ -77,14 +67,12 @@
   date_received: '2019-06-05'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2017.00052122.002 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=011.2017.00052122.002 '
   address: 52  Undara Road, BENSVILLE NSW 2251
   description: 'Section 4.55 Amendment - Add Store Room & In-Ground Swimming Pool '
 - council_reference: '011.2018.00055707.002 '
   date_received: '2019-06-05'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2018.00055707.002 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=011.2018.00055707.002 '
   address: 4  Mowarra Close, KOOLEWONG NSW 2256
   description: '4.55 Extend Bedroom into Rear Deck Area under Original Proposed Roof
     Foot Print '
@@ -92,7 +80,6 @@
   date_received: '2019-06-03'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2019.00056432.002 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=011.2019.00056432.002 '
   address: 234  Empire Bay Drive, EMPIRE BAY NSW 2257
   description: 'Section 4.55 - Move Sign to Avoid W&S ZOI Allowing Removal of Condition
     2.3 '
@@ -100,49 +87,42 @@
   date_received: '2019-06-03'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2019.00056622.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=011.2019.00056622.001 '
   address: 27  Jenkins Street, DAVISTOWN NSW 2251
   description: 'Detached Garage '
 - council_reference: '011.2019.00056623.001 '
   date_received: '2019-06-03'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2019.00056623.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=011.2019.00056623.001 '
   address: 89  Taylor Street, WOY WOY BAY NSW 2256
   description: 'Spa '
 - council_reference: '011.2019.00056624.001 '
   date_received: '2019-06-03'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2019.00056624.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=011.2019.00056624.001 '
   address: 6  Camphor Close, WYOMING NSW 2250
   description: 'Secondary Dwelling '
 - council_reference: '011.2019.00056625.001 '
   date_received: '2019-06-03'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2019.00056625.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=011.2019.00056625.001 '
   address: 19  Lake Street, NORTH AVOCA NSW 2260
   description: 'Pool Store Room Addition to Existing Studio '
 - council_reference: '011.2019.00056626.001 '
   date_received: '2019-06-03'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2019.00056626.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=011.2019.00056626.001 '
   address: 277  The Entrance Road, ERINA NSW 2250
   description: 'Secondary Dwelling '
 - council_reference: '011.2019.00056627.001 '
   date_received: '2019-06-03'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2019.00056627.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=011.2019.00056627.001 '
   address: 4  Rickard Street, UMINA BEACH NSW 2257
   description: 'New Dwelling House, Secondary Dwelling & Retaining Wall '
 - council_reference: '011.2019.00056628.001 '
   date_received: '2019-06-03'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2019.00056628.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=011.2019.00056628.001 '
   address: 999 Pacific Highway, LISAROW NSW 2250
   description: 'Mobile Telecommunications Facility consisting of a 30m Monopole Structure
     & Antennas '
@@ -150,14 +130,12 @@
   date_received: '2019-06-04'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2019.00056629.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=011.2019.00056629.001 '
   address: 22  Aldinga Drive, WAMBERAL NSW 2260
   description: 'Front Fence '
 - council_reference: '011.2019.00056631.001 '
   date_received: '2019-06-04'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2019.00056631.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=011.2019.00056631.001 '
   address: 98  Daley Avenue, DALEYS POINT NSW 2257
   description: 'Third Storey Addition, New Decks, Swimming Pool, Four Car Garage,
     Landscaping Works & Alterations to Internal Layout '
@@ -165,49 +143,42 @@
   date_received: '2019-06-04'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2019.00056632.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=011.2019.00056632.001 '
   address: 10  Sea Street, UMINA BEACH NSW 2257
   description: 'Dwelling Additions & Alterations '
 - council_reference: '011.2019.00056636.001 '
   date_received: '2019-06-05'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2019.00056636.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=011.2019.00056636.001 '
   address: 28  Paul Street, UMINA BEACH NSW 2257
   description: 'Secondary Dwelling '
 - council_reference: '011.2019.00056637.001 '
   date_received: '2019-06-05'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2019.00056637.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=011.2019.00056637.001 '
   address: 229  Steyne Road, SARATOGA NSW 2251
   description: 'Alterations & Additions to Existing Dwelling '
 - council_reference: '011.2019.00056638.001 '
   date_received: '2019-06-05'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2019.00056638.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=011.2019.00056638.001 '
   address: 12  Lorikeet Street, TERRIGAL NSW 2260
   description: 'Dwelling & Demolition of Existing Dwelling '
 - council_reference: '011.2019.00056639.001 '
   date_received: '2019-06-05'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2019.00056639.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=011.2019.00056639.001 '
   address: 16 Sunnyvale Close, LISAROW NSW 2250
   description: 'Awning '
 - council_reference: '011.2019.00056640.001 '
   date_received: '2019-06-06'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2019.00056640.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=011.2019.00056640.001 '
   address: 41  Melbourne Avenue, UMINA BEACH NSW 2257
   description: 'Demolition Residential '
 - council_reference: '011.2019.00056641.001 '
   date_received: '2019-06-06'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2019.00056641.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=011.2019.00056641.001 '
   address: 1734  Peats Ridge Road, PEATS RIDGE NSW 2250
   description: 'Proposed Bulk Earthworks to Facilitate Future Intensive Plant Agriculture
     & Machinery/Packing Shed '
@@ -215,7 +186,6 @@
   date_received: '2019-06-06'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2019.00056642.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=011.2019.00056642.001 '
   address: 21  Karloo Road, UMINA BEACH NSW 2257
   description: 'Dwelling Alterations & Additions & Demolition of Existing Garage &
     Awning '
@@ -223,28 +193,24 @@
   date_received: '2019-06-06'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2019.00056643.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=011.2019.00056643.001 '
   address: 41  Wagstaffe Avenue, WAGSTAFFE NSW 2257
   description: 'Demolition of Existing Dwelling, Garage & Outhouse '
 - council_reference: '011.2019.00056644.001 '
   date_received: '2019-06-06'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2019.00056644.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=011.2019.00056644.001 '
   address: 23  Tourmaline Avenue, PEARL BEACH NSW 2256
   description: 'Dwelling Alterations & Addition '
 - council_reference: '011.2019.00056645.001 '
   date_received: '2019-06-06'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2019.00056645.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=011.2019.00056645.001 '
   address: 90  Newling Street, LISAROW NSW 2250
   description: 'Installation of LED Sign '
 - council_reference: '011.2019.00056646.001 '
   date_received: '2019-06-06'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2019.00056646.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=011.2019.00056646.001 '
   address: 40  Forresters Beach Road, FORRESTERS BEACH NSW 2260
   description: 'New Layout + 1 Bedroom Upper Level: Ensuite, Study & 2 Decks Swimming
     Pool In-ground '
@@ -252,21 +218,18 @@
   date_received: '2019-06-06'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2019.00056647.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=011.2019.00056647.001 '
   address: 1  Smithy Street, KILLCARE HEIGHTS NSW 2257
   description: 'Dwelling Addition '
 - council_reference: '011.2019.00056648.001 '
   date_received: '2019-06-06'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=011.2019.00056648.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=011.2019.00056648.001 '
   address: 533  Empire Bay Drive, BENSVILLE NSW 2251
   description: 'Shed, Swimming Pool In-ground & Cabana '
 - council_reference: '012.2016.00051305.003 '
   date_received: '2019-06-06'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2016.00051305.003 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=012.2016.00051305.003 '
   address: 162  Terrigal Drive, TERRIGAL NSW 2260
   description: 'Section 4.55 Amendment - Terraces Removed, Hip Roof & Study Added,
     Ensuite Reconfigured '
@@ -274,7 +237,6 @@
   date_received: '2019-06-05'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2018.00053706.002 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=012.2018.00053706.002 '
   address: 77  Kalakau Avenue, FORRESTERS BEACH NSW 2260
   description: 'Revised Construction Certificate - Substitution of Glass Bricks at
     Three Locations on Brick Boundary Walls '
@@ -282,7 +244,6 @@
   date_received: '2019-06-04'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2019.00055894.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=012.2019.00055894.001 '
   address: 20  - 30  MacKillop Road, KINCUMBER SOUTH NSW 2251
   description: "Activities Shed Only (Excludes Deck & Addition of Commercial Kitchen)
     \n "
@@ -290,49 +251,42 @@
   date_received: '2019-06-03'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2019.00055947.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=012.2019.00055947.001 '
   address: 1  Pacific Avenue, ETTALONG BEACH NSW 2257
   description: 'Residence & Secondary Dwelling '
 - council_reference: '012.2019.00056230.001 '
   date_received: '2019-06-03'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2019.00056230.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=012.2019.00056230.001 '
   address: 50  Sumner Circuit, TERRIGAL NSW 2260
   description: 'Dwelling House (New) & Retaining Wall '
 - council_reference: '012.2019.00056305.001 '
   date_received: '2019-06-06'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2019.00056305.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=012.2019.00056305.001 '
   address: 469 Orange Grove Road, BLACKWALL NSW 2256
   description: 'Enclose Existing Covered Deck '
 - council_reference: '012.2019.00056401.001 '
   date_received: '2019-06-04'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2019.00056401.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=012.2019.00056401.001 '
   address: 9 A Stratford Park Drive, TERRIGAL NSW 2260
   description: 'Alterations & ADditions (Patio Roof & Deck) '
 - council_reference: '012.2019.00056424.001 '
   date_received: '2019-06-03'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2019.00056424.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=012.2019.00056424.001 '
   address: 59  Lakala Avenue, SPRINGFIELD NSW 2250
   description: 'Swimming Pool & Associated Safety Barriers '
 - council_reference: '012.2019.00056636.001 '
   date_received: '2019-06-05'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=012.2019.00056636.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=012.2019.00056636.001 '
   address: 28  Paul Street, UMINA BEACH NSW 2257
   description: 'Secondary Dwelling '
 - council_reference: '024.2019.00011607.001 '
   date_received: '2019-06-01'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=024.2019.00011607.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=024.2019.00011607.001 '
   address: 117  Greenhaven Drive, UMINA BEACH NSW 2257
   description: 'Removal of Tree 1- 1 x Eucalyptus species located on the left side
     boundary of property and Tree 2- 1 x Eucalyptus species located on the left side
@@ -341,7 +295,6 @@
   date_received: '2019-06-03'
   date_scraped: '2019-05-15'
   info_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=024.2019.00011610.001 '
-  comment_url: 'https://plan.gosford.nsw.gov.au/Pages/XC.Track/Submission.aspx?id=024.2019.00011610.001 '
   address: 16  Narani Avenue, NIAGARA PARK NSW 2250
   description: 'Removal of 1 x Liquidamber styraciflua (sweetgum) and 1 x Glochidion
     ferdinandi (cheese tree) located at the rear boundary. '

@@ -14,7 +14,6 @@ page.search("Application").each do |app|
     "date_scraped" => Date.today.to_s
   }
   record["info_url"] =  base_url + "/SearchApplication.aspx?id=" + record["council_reference"]
-  record["comment_url"] = base_url + "/Submission.aspx?id=" + record['council_reference']
   # Only use the first address
   record["address"] = app.at('Address Line1').inner_text + ", " + app.at('Address Line2').inner_text
   # Some DAs have good descriptions whilst others just have
