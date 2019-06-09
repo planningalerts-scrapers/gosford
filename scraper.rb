@@ -3,7 +3,7 @@ require 'scraperwiki'
 
 # XML feed of the applications submitted in the last month
 base_url = "https://plan.gosford.nsw.gov.au/Pages/XC.Track"
-url = base_url + "/SearchApplication.aspx?o=xml&d=thismonth&k=LodgementDate"
+url = base_url + "/SearchApplication.aspx?o=xml&d=last14days&k=LodgementDate"
 
 agent = Mechanize.new
 page = Nokogiri::XML(agent.get(url).body)
