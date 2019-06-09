@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?d=last14days&k=LodgementDate&o=xml
+    uri: https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx
     body:
       encoding: US-ASCII
       string: ''
@@ -29,7 +29,7 @@ http_interactions:
       message: Moved Permanently
     headers:
       Location:
-      - https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?o=xml&d=last14days&k=LodgementDate
+      - https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx
     body:
       encoding: UTF-8
       string: ''
@@ -37,7 +37,7 @@ http_interactions:
   recorded_at: Tue, 14 May 2019 14:00:00 GMT
 - request:
     method: get
-    uri: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?d=last14days&k=LodgementDate&o=xml
+    uri: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx
     body:
       encoding: US-ASCII
       string: ''
@@ -66,11 +66,278 @@ http_interactions:
       Cache-Control:
       - private
       Content-Type:
-      - application/xml; charset=utf-8
+      - text/html; charset=utf-8
       Set-Cookie:
-      - ASP.NET_SessionId=efzi2h55g5mm4zhgzm3bqw5s; path=/; secure; HttpOnly
+      - ASP.NET_SessionId=o3tjwsdbih511wzjpit34ekw; path=/; secure; HttpOnly
       Date:
-      - Sun, 09 Jun 2019 02:58:03 GMT
+      - Sun, 09 Jun 2019 03:07:44 GMT
+      Content-Length:
+      - '20413'
+    body:
+      encoding: UTF-8
+      string: "\r\n\r\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"
+        \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\"
+        >\r\n<head id=\"ctl00_Head1\"><title>\r\n\tFind an Application\r\n</title><meta
+        http-equiv=\"Expires\" content=\"0\" /><meta http-equiv=\"Cache-Control\"
+        content=\"no-cache\" /><meta http-equiv=\"Pragma\" content=\"no-cache\" /><link
+        href=\"../../favicon.ico\" type=\"image/x-icon\" rel=\"icon\" /><link href=\"../../favicon.ico\"
+        type=\"image/x-icon\" rel=\"shortcut icon\" /><link href=\"../../HttpCombiner.ashx?s=IconCss&amp;t=text/css\"
+        type=\"text/css\" rel=\"Stylesheet\" media=\"all\" />\r\n\t<base target=\"_top\"
+        />\r\n\t\r\n\t<!-- Conditional Queries to load the Formatted Lists CSS files
+        -->  \r\n    <!--[if lt IE 8]>\r\n        <link type=\"text/css\" href=\"../../App_Themes/Icon/IE7.css\"
+        rel=\"Stylesheet\" />\r\n    <![endif]-->\r\n\r\n    <!--[if gt IE 7]>\r\n\t
+        \   <link type=\"text/css\" href=\"../../App_Themes/Icon/FormattedLists.css\"
+        rel=\"Stylesheet\" />\r\n    <![endif]-->\r\n\r\n    <!--[if !IE]><!-->\r\n\t
+        \   <link type=\"text/css\" href=\"../../App_Themes/Icon/FormattedLists.css\"
+        rel=\"Stylesheet\" />\r\n    <!--<![endif]-->\r\n\t\r\n\t<style type='text/css'></style><meta
+        http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" /><link href=\"../../App_Themes/Default/Default.css\"
+        type=\"text/css\" rel=\"stylesheet\" /><link href=\"../../App_Themes/Default/User.css\"
+        type=\"text/css\" rel=\"stylesheet\" /><link href=\"../../App_Themes/Default/zDashboard.Lodge.css\"
+        type=\"text/css\" rel=\"stylesheet\" /><link href=\"../../App_Themes/Default/zFileUploadButtonImages.Lodge.css\"
+        type=\"text/css\" rel=\"stylesheet\" /></head>\r\n<body>\r\n    <form method=\"post\"
+        action=\"./SearchApplication.aspx\" id=\"aspnetForm\" role=\"form\" autocomplete=\"off\">\r\n<input
+        type=\"hidden\" name=\"ctl00_rcss_TSSM\" id=\"ctl00_rcss_TSSM\" value=\"\"
+        />\r\n<input type=\"hidden\" name=\"ctl00_script_TSM\" id=\"ctl00_script_TSM\"
+        value=\"\" />\r\n<input type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\"
+        value=\"/wEPDwULLTE1OTM3MDQ5NjUPZBYCZg9kFgICAw9kFgoCAg8PFgIeB1Zpc2libGVoZGQCAw8WAh4EVGV4dAUzPGEgaHJlZj0iLi4vLi4vUGFnZXMvU2VjdXJpdHkvTG9naW4uYXNweCI+TG9naW48L2E+ZAIFDxYCHwFlZAIHD2QWAgIBD2QWAgICD2QWAgIBDxYCHwFlZAIJD2QWBAIBD2QWAgIBDw8WAh8AZ2QWBAIBDxYCHwFlZAICD2QWAmYPDxYEHghDc3NDbGFzc2UeBF8hU0ICAmQWBAIBDw8WAh8AaGQWAgIDDw8WAh8BZWRkAgMPDxYEHwJlHwMCAmQWBAIDD2QWAmYPFgIfAQX3BzxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0IiBzcmM9Imh0dHA6Ly9tYXBzLmdvb2dsZS5jb20vbWFwcy9hcGkvanM/c2Vuc29yPXRydWUmbGlicmFyaWVzPWdlb21ldHJ5Ij48L3NjcmlwdD48c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCIgc3JjPSJodHRwczovL3d3dy5nb29nbGUuY29tL2pzYXBpIj48L3NjcmlwdD48c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCIgc3JjPSIvY2xpZW50L3NjcmlwdHMvbWFwLy9pY29uLW1hcC5qcyI+PC9zY3JpcHQ+PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iLi4vLi4vUGFnZXMvWEMuU3BhdGlhbC9KYXZhc2NyaXB0L1NwYXRpYWwuanMiPjwvc2NyaXB0PjxsaW5rIHJlbD0ic3R5bGVzaGVldCIgaHJlZj0iL2NsaWVudC9zY3JpcHRzL21hcC8vaWNvbi1tYXAuY3NzIiBtZWRpYT0ic2NyZWVuIj48L2xpbms+PGxpbmsgcmVsPSJzdHlsZXNoZWV0IiBocmVmPSIuLi8uLi9BcHBfVGhlbWVzL0ljb24vU3BhdGlhbC5jc3MiIG1lZGlhPSJzY3JlZW4iPjwvbGluaz48ZGl2IGlkPSJtYXAiIGNsYXNzPSJlbWJlZGRlZCIgc3R5bGU9IiI+IDwvZGl2Pg0KPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPg0KdmFyIG1hcDskKGRvY3VtZW50KS5yZWFkeShmdW5jdGlvbiAoKSB7dmFyIG9wdGlvbnMgPSB7YWNjb3VudDoiIixjb250ZXh0OiIiLHpvb21Ub0JvdW5kczogZmFsc2UsdG9vbGJhcjogdHJ1ZSx0b29sYmFyT3B0aW9uczoge3pvb21JbjogdHJ1ZSx6b29tT3V0OiB0cnVlLHN0cmVldFZpZXc6IHRydWUsbGF5ZXJzOiBmYWxzZSxsZWdlbmQ6IGZhbHNlLGNsZWFyOiBmYWxzZSxzZWFyY2g6IGZhbHNlfSxpZGVudGlmeTogZmFsc2UsbXVsdGlTZWxlY3Q6IGZhbHNlLHpvb21GYWN0b3I6IDE2fTsNCm1hcCA9IG5ldyBtYWNyb2dpcy5tYXBzLkljb25NYXAoIm1hcCIsIG9wdGlvbnMsIGZ1bmN0aW9uKCkgeyBtYXAuem9vbVRvRnVsbEV4dGVudCgpOw0KIA0KfSk7fSk7DQokKCcjJykuaGlkZSgpOw0KPC9zY3JpcHQ+DQpkAgUPFgIfAWVkAgMPZBYCAgEPZBYCZg9kFgICFQ9kFgJmD2QWBAIBD2QWAgIDDw8WAh8BBQNNYXBkZAIDD2QWBAIDD2QWAmYPFgIfAQX3BzxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0IiBzcmM9Imh0dHA6Ly9tYXBzLmdvb2dsZS5jb20vbWFwcy9hcGkvanM/c2Vuc29yPXRydWUmbGlicmFyaWVzPWdlb21ldHJ5Ij48L3NjcmlwdD48c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCIgc3JjPSJodHRwczovL3d3dy5nb29nbGUuY29tL2pzYXBpIj48L3NjcmlwdD48c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCIgc3JjPSIvY2xpZW50L3NjcmlwdHMvbWFwLy9pY29uLW1hcC5qcyI+PC9zY3JpcHQ+PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iLi4vLi4vUGFnZXMvWEMuU3BhdGlhbC9KYXZhc2NyaXB0L1NwYXRpYWwuanMiPjwvc2NyaXB0PjxsaW5rIHJlbD0ic3R5bGVzaGVldCIgaHJlZj0iL2NsaWVudC9zY3JpcHRzL21hcC8vaWNvbi1tYXAuY3NzIiBtZWRpYT0ic2NyZWVuIj48L2xpbms+PGxpbmsgcmVsPSJzdHlsZXNoZWV0IiBocmVmPSIuLi8uLi9BcHBfVGhlbWVzL0ljb24vU3BhdGlhbC5jc3MiIG1lZGlhPSJzY3JlZW4iPjwvbGluaz48ZGl2IGlkPSJtYXAiIGNsYXNzPSJlbWJlZGRlZCIgc3R5bGU9IiI+IDwvZGl2Pg0KPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPg0KdmFyIG1hcDskKGRvY3VtZW50KS5yZWFkeShmdW5jdGlvbiAoKSB7dmFyIG9wdGlvbnMgPSB7YWNjb3VudDoiIixjb250ZXh0OiIiLHpvb21Ub0JvdW5kczogZmFsc2UsdG9vbGJhcjogdHJ1ZSx0b29sYmFyT3B0aW9uczoge3pvb21JbjogdHJ1ZSx6b29tT3V0OiB0cnVlLHN0cmVldFZpZXc6IHRydWUsbGF5ZXJzOiBmYWxzZSxsZWdlbmQ6IGZhbHNlLGNsZWFyOiBmYWxzZSxzZWFyY2g6IGZhbHNlfSxpZGVudGlmeTogZmFsc2UsbXVsdGlTZWxlY3Q6IGZhbHNlLHpvb21GYWN0b3I6IDE2fTsNCm1hcCA9IG5ldyBtYWNyb2dpcy5tYXBzLkljb25NYXAoIm1hcCIsIG9wdGlvbnMsIGZ1bmN0aW9uKCkgeyBtYXAuem9vbVRvRnVsbEV4dGVudCgpOw0KIA0KfSk7fSk7DQokKCcjJykuaGlkZSgpOw0KPC9zY3JpcHQ+DQpkAgUPFgIfAWVkZLlpoKUqVCwOXsls8LzMx92Zczvf\"
+        />\r\n\r\n\r\n<script src=\"/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ctl00_script_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen%3ad28568d3-e53e-4706-928f-3765912b66ca%3aea597d4b\"
+        type=\"text/javascript\"></script>\r\n<script type=\"text/javascript\">\r\n//<![CDATA[\r\nif
+        (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework
+        failed to load.');\r\n//]]>\r\n</script>\r\n\r\n<input type=\"hidden\" name=\"__VIEWSTATEGENERATOR\"
+        id=\"__VIEWSTATEGENERATOR\" value=\"FD370D2E\" />\r\n<input type=\"hidden\"
+        name=\"__EVENTVALIDATION\" id=\"__EVENTVALIDATION\" value=\"/wEdAAM7/W1TcQzoivxWMVTjHWQunexQA0tUWxhXiF1Lx87GyZtWKg6RvYaBd0w/zXbzv0m7dgCApn1t2jYlHJlFVOWJ3f4I7g==\"
+        />\r\n        \r\n        <script type=\"text/javascript\" src=\"../../HttpCombiner.ashx?s=IconJs&t=text/javascript\"></script>\r\n
+        \       <script type=\"text/javascript\">\r\n            jGrowlPosition =
+        \"top-right\";\r\n        </script>\r\n        <div id=\"ctl00_throbber_throbber\"
+        class=\"globalThrobber\">\r\n    <img class=\"throbber\" src=\"../../Common/Common/Image.aspx?rid=throbber.gif\"
+        alt=\"Loading...\" />\r\n</div>\r\n\r\n<script type=\"text/javascript\">\r\n
+        \   $(document).ready(function(){        \r\n        $('.globalThrobber')\r\n
+        \           .ajaxStart(function() {\r\n                if ($('.throbber:visible').length
+        == 0) {\r\n                    $(this).show();\r\n                }\r\n            })
+        \ \r\n            .ajaxStop(function() {\r\n                $(this).hide();\r\n
+        \           })\r\n        ;\r\n    });\r\n</script>\r\n        \r\n        <div
+        id=\"docf\">\r\n            <div id=\"hd\" role=\"banner\">\r\n                <div
+        id=\"navwrap\" role=\"navigation\">  \r\n                    <div id=\"nav\"
+        class=\"floatLeft adminnav menushell\">\r\n                        <!--<a
+        class=\"megaMenuLink\" _megamenupos=\"0pos\" href=\"../../Pages/XC.Home/Home.aspx\">Home</a>-->\r\n
+        \                   </div>\r\n                    <div id=\"nav\" class=\"floatRight
+        adminnav\">  \r\n                        <!--<a href=\"../../Pages/Security/Login.aspx\">Login</a>-->\r\n
+        \                   </div>  \r\n                </div>\r\n                <div
+        class=\"logo\">\r\n                    <div style=\"margin-top:15px; float:left;
+        min-height:130px; width:135px;cursor:pointer;\" onclick=\"javascript:window.open('http://www.gosford.nsw.gov.au','_self');\"
+        >&nbsp;</div>\r\n                  <div style=\"margin-top:70px; float:right;width:840px
+        !important;\">\r\n\t\t\t<div id=\"navigationContainer\">\r\n\t\t\t\t<ul class=\"navigation
+        clearfix\" style=\"float:right; width:840px !important;\">\r\n\t\t\t\t\t<li
+        style=\"padding-left:0px; width:16.667% !important;\"><a id=\"aboutcouncil\"
+        href=\"http://www.gosford.nsw.gov.au/about-council\">About Council</a></li>\r\n\t\t\t\t\t<li
+        style=\"padding-left:0px; width:16.667% !important;  background: #eaeaea;\"><a
+        id=\"buildinganddevelopment\" href=\"http://www.gosford.nsw.gov.au/building-and-development\"
+        style=\"border-bottom: 12px solid #0f7dc1; padding: 18px 16.541353% 0;\">Building
+        and Development</a></li>\r\n\t\t\t\t\t<li style=\"padding-left:0px; width:16.667%
+        !important;\"><a id=\"environmentandwaste\" href=\"http://www.gosford.nsw.gov.au/environment-and-waste\">Environment
+        and Waste</a></li>\r\n\t\t\t\t\t<li style=\"padding-left:0px; width:16.667%
+        !important;\"><a id=\"arts,cultureandrecreation\" href=\"http://www.gosford.nsw.gov.au/arts-culture-and-recreation\">Arts,
+        Culture and Recreation</a></li>\r\n\t\t\t\t\t<li style=\"padding-left:0px;
+        width:16.667% !important;\"><a id=\"community\" href=\"http://www.gosford.nsw.gov.au/community\">Community</a></li>\r\n\t\t\t\t\t<!--
+        <li style=\"padding-left:0px; width:16.667% !important;\"><a id=\"business181\"
+        href=\"http://www.gosford.nsw.gov.au/business\">Business</a></li> -->\r\n\t\t\t\t\t<li
+        style=\"padding-left:0px; width:16.667% !important;\"><a id=\"whatson\" href=\"http://www.gosford.nsw.gov.au/what's-on\">What's
+        On</a></li>\r\n\t\t\t\t</ul>\r\n\t\t\t</div>\r\n                  </div>\r\n\t\t</div>\r\n
+        \               <div class=\"clear adminclear\"></div> \r\n                <div
+        id=\"mainline\">\r\n                    <div class=\"containerLeft adminbanner
+        splitterLeftMaster noOverflow\">\r\n                        \r\n                        <div
+        style=\"margin-top:5px; padding:3px; padding-left:12px;\" id=\"adminpage\">\r\n
+        \                           \r\n                        </div>\r\n                    </div>\r\n
+        \                   <div class=\"containerRight adminbanner splitterRightMaster
+        noOverflow\">\r\n                        \r\n                    </div>\r\n
+        \               </div>\r\n                <div class=\"clear\"></div>\r\n
+        \           </div>\r\n            <div class=\"clear\"></div> \r\n            <div
+        id=\"bd\" role=\"main\">\r\n                <div id=\"main\">\r\n                    <div
+        class=\"containerLeft\">\r\n                        <div class=\"containerInner\">\r\n
+        \                           <div class=\"padded\">\r\n                                \r\n
+        \   <div class=\"dynamicMenu\">\r\n        <div class=\"padded\" style=\"padding-left:20px;\">\r\n
+        \           <div class=\"Links LinksGroup\">\r\n  <div id=\"m0\" class=\"LinksTitle\"
+        onclick=\"toggleMenu('0');\">\r\n    <img src=\"../../Image/bullet_arrow_down.aspx\"
+        alt=\"show\" id=\"g0\" style=\"float:left;display:none;\" />Search Options</div>\r\n
+        \ <div id=\"i0\" class=\"LinksSection\">\r\n    <a href=\"../../Pages/XC.Track/SearchApplication.aspx\"
+        class=\"Links\" target=\"\">Find an Application</a>\r\n    <a href=\"../../Pages/XC.Track/SearchProperty.aspx\"
+        class=\"Links\" target=\"\">Find a Property</a>\r\n    <a href=\"../../Pages/XC.Track/ChooseFeed.aspx\"
+        class=\"Links\" target=\"\">Feeds and Maps</a>\r\n    <a href=\"../../Pages/XC.Home/Home.aspx\"
+        class=\"Links\" target=\"\">ePlanning Home</a>\r\n  </div>\r\n</div>\r\n<div
+        class=\"Links LinksGroup\">\r\n  <div id=\"m1\" class=\"LinksTitle\" onclick=\"toggleMenu('1');\">\r\n
+        \   <img src=\"../../Image/bullet_arrow_down.aspx\" alt=\"show\" id=\"g1\"
+        style=\"float:left;display:none;\" />Applications Lodged</div>\r\n  <div id=\"i1\"
+        class=\"LinksSection\">\r\n    <a href=\"../../Pages/XC.Track/SearchApplication.aspx?d=thisweek&amp;k=LodgementDate&amp;t=10,11,12,24\"
+        class=\"Links\" target=\"\">This Week</a>\r\n    <a href=\"../../Pages/XC.Track/SearchApplication.aspx?d=lastweek&amp;k=LodgementDate&amp;t=10,11,12,24\"
+        class=\"Links\" target=\"\">Last Week</a>\r\n    <a href=\"../../Pages/XC.Track/SearchApplication.aspx?d=thismonth&amp;k=LodgementDate&amp;t=10,11,12,24\"
+        class=\"Links\" target=\"\">This Month</a>\r\n    <a href=\"../../Pages/XC.Track/SearchApplication.aspx?d=lastmonth&amp;k=LodgementDate&amp;t=10,11,12,24\"
+        class=\"Links\" target=\"\">Last Month</a>\r\n    <a href=\"../../Pages/XC.Track/SearchApplication.aspx?d=thisquarter&amp;k=LodgementDate&amp;t=10,11,12,24\"
+        class=\"Links\" target=\"\">This Quarter</a>\r\n    <a href=\"../../Pages/XC.Track/SearchApplication.aspx?d=lastquarter&amp;k=LodgementDate&amp;t=10,11,12,24\"
+        class=\"Links\" target=\"\">Last Quarter</a>\r\n  </div>\r\n</div>\r\n<div
+        class=\"Links LinksGroup\">\r\n  <div id=\"m3\" class=\"LinksTitle\" onclick=\"toggleMenu('3');\">\r\n
+        \   <img src=\"../../Image/bullet_arrow_down.aspx\" alt=\"show\" id=\"g3\"
+        style=\"float:left;display:none;\" />Applications Determined</div>\r\n  <div
+        id=\"i3\" class=\"LinksSection\">\r\n    <a href=\"../../Pages/XC.Track/SearchApplication.aspx?d=thisweek&amp;k=DeterminationDate&amp;t=10,11,12,24\"
+        class=\"Links\" target=\"\">This Week</a>\r\n    <a href=\"../../Pages/XC.Track/SearchApplication.aspx?d=lastweek&amp;k=DeterminationDate&amp;t=10,11,12,24\"
+        class=\"Links\" target=\"\">Last Week</a>\r\n    <a href=\"../../Pages/XC.Track/SearchApplication.aspx?d=thismonth&amp;k=DeterminationDate&amp;t=10,11,12,24\"
+        class=\"Links\" target=\"\">This Month</a>\r\n    <a href=\"../../Pages/XC.Track/SearchApplication.aspx?d=lastmonth&amp;k=DeterminationDate&amp;t=10,11,12,24\"
+        class=\"Links\" target=\"\">Last Month</a>\r\n    <a href=\"../../Pages/XC.Track/SearchApplication.aspx?d=thisquarter&amp;k=DeterminationDate&amp;t=10,11,12,24\"
+        class=\"Links\" target=\"\">This Quarter</a>\r\n    <a href=\"../../Pages/XC.Track/SearchApplication.aspx?d=lastquarter&amp;k=DeterminationDate&amp;t=10,11,12,24\"
+        class=\"Links\" target=\"\">Last Quarter</a>\r\n  </div>\r\n</div>\r\n<div
+        class=\"Links LinksGroup\">\r\n  <div id=\"m4\" class=\"LinksTitle\" onclick=\"toggleMenu('4');\">\r\n
+        \   <img src=\"../../Image/bullet_arrow_down.aspx\" alt=\"show\" id=\"g4\"
+        style=\"float:left;display:none;\" />Applications on Exhibition</div>\r\n
+        \ <div id=\"i4\" class=\"LinksSection\">\r\n    <a href=\"../../Pages/XC.Track/SearchApplication.aspx?as=e&amp;t=10,11,12,24\"
+        class=\"Links\" target=\"\">Show Available</a>\r\n    <a href=\"../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=e&amp;t=10,11,12,24\"
+        class=\"Links\" target=\"\">Map Available</a>\r\n  </div>\r\n</div>\r\n<div
+        class=\"Links LinksGroup\">\r\n  <div id=\"m5\" class=\"LinksTitle\" onclick=\"toggleMenu('5');\">\r\n
+        \   <img src=\"../../Image/bullet_arrow_down.aspx\" alt=\"show\" id=\"g5\"
+        style=\"float:left;display:none;\" />Applications Pending</div>\r\n  <div
+        id=\"i5\" class=\"LinksSection\">\r\n    <a href=\"../../Pages/XC.Track/SearchApplication.aspx?os=y&amp;t=10,11,12,24\"
+        class=\"Links\" target=\"\">Show All Applications</a>\r\n    <a href=\"../../Pages/XC.Track/SearchApplication.aspx?os=y&amp;t=11\"
+        class=\"Links\" target=\"\">Development Applications</a>\r\n    <a href=\"../../Pages/XC.Track/SearchApplication.aspx?os=y&amp;t=12\"
+        class=\"Links\" target=\"\">Construction Certificates</a>\r\n    <a href=\"../../Pages/XC.Track/SearchApplication.aspx?os=y&amp;t=10\"
+        class=\"Links\" target=\"\">Complying Development</a>\r\n    <a href=\"../../Pages/XC.Track/SearchApplication.aspx?os=y&amp;t=24\"
+        class=\"Links\" target=\"\">Tree Applications</a>\r\n  </div>\r\n</div>\r\n<script
+        type=\"text/javascript\">\r\n\t\t\t\tif ($.cookie(\"menu_0\")==null) {$.cookie(\"menu_0\",'show',{expires:28,path:'/'});}\r\n\t\t\t\tif
+        ($.cookie(\"menu_0\")=='hide') {$('#i0').hide();$('#g0').attr(\"src\", \"../../Image/bullet_arrow_right.aspx\");}\r\n\t\t\t\r\n\t\t\t\tif
+        ($.cookie(\"menu_1\")==null) {$.cookie(\"menu_1\",'show',{expires:28,path:'/'});}\r\n\t\t\t\tif
+        ($.cookie(\"menu_1\")=='hide') {$('#i1').hide();$('#g1').attr(\"src\", \"../../Image/bullet_arrow_right.aspx\");}\r\n\t\t\t\r\n\t\t\t\tif
+        ($.cookie(\"menu_3\")==null) {$.cookie(\"menu_3\",'show',{expires:28,path:'/'});}\r\n\t\t\t\tif
+        ($.cookie(\"menu_3\")=='hide') {$('#i3').hide();$('#g3').attr(\"src\", \"../../Image/bullet_arrow_right.aspx\");}\r\n\t\t\t\r\n\t\t\t\tif
+        ($.cookie(\"menu_4\")==null) {$.cookie(\"menu_4\",'show',{expires:28,path:'/'});}\r\n\t\t\t\tif
+        ($.cookie(\"menu_4\")=='hide') {$('#i4').hide();$('#g4').attr(\"src\", \"../../Image/bullet_arrow_right.aspx\");}\r\n\t\t\t\r\n\t\t\t\tif
+        ($.cookie(\"menu_5\")==null) {$.cookie(\"menu_5\",'show',{expires:28,path:'/'});}\r\n\t\t\t\tif
+        ($.cookie(\"menu_5\")=='hide') {$('#i5').hide();$('#g5').attr(\"src\", \"../../Image/bullet_arrow_right.aspx\");}\r\n\t\t\t\r\n\t\t\tfunction
+        toggleMenu(id) {\r\n\t\t\tif ($.cookie('menu_' + id)=='hide') {\r\n\t\t\t$.cookie('menu_'
+        + id,'show',{expires:28,path:'/'});\r\n\t\t\t$('#i' + id).slideDown('slow');\r\n\t\t\t$('#g'
+        + id).attr(\"src\", \"../../Image/bullet_arrow_down.aspx\");\r\n\t\t\t} else
+        {\r\n\t\t\t$.cookie('menu_' + id,'hide',{expires:28,path:'/'});\r\n\t\t\t$('#i'
+        + id).slideUp('slow');\r\n\t\t\t$('#g' + id).attr(\"src\", \"../../Image/bullet_arrow_right.aspx\");\r\n\t\t\t}\r\n\t\t\t}\r\n\t\t\t
+        </script> \r\n\r\n\r\n\r\n\r\n        </div>\r\n    </div>\r\n\r\n                            </div>\r\n
+        \                       </div>\r\n                    </div>\r\n                    <div
+        class=\"containerRight\">\r\n                        <div class=\"containerInner\">\r\n
+        \                           <div class=\"padded\">\r\n                                \r\n
+        \                               \r\n    <div class=\"padded\">\r\n        <div
+        id=\"ctl00_ctMain_pnlMain\">\r\n\t\r\n            \r\n<script type=\"text/javascript\">\r\n
+        \   $(document).ready(function(){\r\n        $(\".application\").autocomplete({\r\n
+        \           delay:50,\r\n            minLength:1,\r\n\t\t    source: function(request,
+        response){\r\n                $('#loading').show();\r\n                $.ajax({\r\n
+        \                   type:'POST',\r\n                    url:'../../Common/Services/AutoComplete.aspx/GetAutoCompletePairList',\r\n
+        \                   data: '{\"sql\":\"~/Pages/XC.Track/Sql/ApplicationSearchXService.sql\",\"conn\":\"'
+        + 'Authority' + '\",\"term\":\"' + request.term.replace(\"-\", \"/dash/\").replace(\"'\",
+        \"/quot/\") + '\"}',\r\n                    contentType: \"application/json;
+        charset=utf-8\",\r\n                    dataType: \"json\",\r\n                    success:
+        function (data) {\r\n                        data = data.d;\r\n                        response(data);\r\n
+        \                   }\r\n                });},\r\n            select: function
+        (event, ui){\r\n                $('#loading').show();\r\n                $('.application').val(ui.item.label);\r\n
+        \               switch (ui.item.value.substr(0,3)) {\r\n                    case
+        'aid': window.location = 'SearchApplication.aspx?id=' + ui.item.value.substr(4);
+        break;\r\n                    case 'pid': window.location = 'SearchApplication.aspx?pid='
+        + ui.item.value.substr(4); break;\r\n                    case 'sid': window.location
+        = 'SearchApplication.aspx?sid=' + ui.item.value.substr(4); break;\r\n                    case
+        'sub': window.location = 'SearchApplication.aspx?sub=' + ui.item.value.substr(4);
+        break;\r\n                    default:window.location = 'SearchApplication.aspx';\r\n
+        \               }\r\n                return false;\r\n            }\r\n\t
+        \   });\r\n    });\r\n</script>\r\n\r\n<div id=\"ctl00_ctMain_search_pnlSearch\"
+        class=\"MainPanel\">\r\n\t\t\r\n    <h2>Application Search</h2>\r\n    <div
+        style=\"font-size: small; color: gray; font-style: italic;\">Enter an application
+        number, then select from the list of available <br/>applications displayed.</div>\r\n
+        \   <input name=\"ctl00$ctMain$search$txtSearch\" type=\"text\" id=\"ctl00_ctMain_search_txtSearch\"
+        class=\"application\" />\r\n    <input type=\"submit\" name=\"ctl00$ctMain$search$btnSearch\"
+        value=\"Search\" id=\"ctl00_ctMain_search_btnSearch\" class=\"buttonText buttonModify\"
+        />\r\n    <img id=\"loading\" src=\"../../Common/Common/Image.aspx?rid=loading03.gif\"
+        alt=\"loading\" style=\"margin-left:10px; display:none;\" />\r\n    <br /><br
+        />\r\n\r\n\t</div>\r\n\r\n<div>\r\n    <br /><br /><br />\r\n    \r\n</div>\r\n\r\n\r\n
+        \       \r\n</div>\r\n        <div id=\"ctl00_ctMain_d1\" class=\"shift\">\r\n
+        \           \r\n        </div>\r\n    </div>    \r\n\r\n                            </div>\r\n
+        \                       </div>\r\n                    </div>\r\n                </div>\r\n
+        \           </div>\r\n            <div class=\"footer\">\r\n                <div
+        style=\"text-align: right;padding-top:80px;\">\r\n                    <p>This
+        page has been produced by <a class=\"afoot\" href=\"http://www.iconsoftware.com.au\">ICON
+        Software Solutions</a>&trade;.</p>\r\n                </div>\r\n            </div>\r\n
+        \       </div>\r\n        <script type=\"text/javascript\" src=\"../../Common/Javascript/final.js\"></script>\r\n
+        \       <script type=\"text/javascript\" src=\"../../Common/User/User.js\"></script>
+        \r\n        <script type=\"text/javascript\">\r\n            $(document).ready(function
+        () {\r\n                document.title = document.title + ' Gosford City Council';\r\n
+        \           });\r\n        </script>\r\n\r\n\t<script type=\"text/javascript\"
+        language=\"javascript\">\r\n\t\t(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n\t\t(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+        Date();a=s.createElement(o),\r\n\t\tm=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n\t\t})(window,document,'script','//www.google-analytics.com/analytics.js','ga');\r\n\r\n\t\tga('create',
+        'UA-65519215-1', 'auto');\r\n\t\tga('send', 'pageview');\r\n\t</script>\r\n
+        \   </form>\r\n</body>\r\n</html>"
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+- request:
+    method: get
+    uri: https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?d=last14days&k=LodgementDate&o=xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Host:
+      - plan.gosford.nsw.gov.au
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Location:
+      - https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?d=last14days&k=LodgementDate&o=xml
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+- request:
+    method: get
+    uri: https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?d=last14days&k=LodgementDate&o=xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - ASP.NET_SessionId=o3tjwsdbih511wzjpit34ekw
+      Host:
+      - plan.s.centralcoast.nsw.gov.au
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/xml; charset=utf-8
+      Date:
+      - Sun, 09 Jun 2019 03:07:52 GMT
       Content-Length:
       - '1128351'
     body:
@@ -1331,7 +1598,16 @@ http_interactions:
         \     <GeoRSS />\r\n      <LatLng />\r\n      <StreetName>Timber Cutter Avenue</StreetName>\r\n
         \     <Line1>5  Timber Cutter Avenue</Line1>\r\n      <Line2>TERRIGAL NSW
         2260</Line2>\r\n      <ApplicationIdS>010.2019.00056587.001</ApplicationIdS>\r\n
-        \   </Address>\r\n    <Party>\r\n      <PersonId>456685</PersonId>\r\n      <ApplicationId>010.2019.00056587.001
+        \   </Address>\r\n    <Party>\r\n      <PersonId>167769</PersonId>\r\n      <ApplicationId>010.2019.00056587.001
+        \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
+        \     <PartyRole>Applicant                               </PartyRole>\r\n
+        \     <FamilyName>Sherd                                             </FamilyName>\r\n
+        \     <GivenName>Carol Lee</GivenName>\r\n      <Initial>C L  </Initial>\r\n
+        \     <Title>GCC</Title>\r\n      <FullName> C L Sherd</FullName>\r\n      <Line1>6
+        Sotherby Avenue                       </Line1>\r\n      <Line2>TERRIGAL  NSW
+        \ 2260                     </Line2>\r\n      <TelephoneNumber>02 4365 0433
+        </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00056587.001</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PersonId>456685</PersonId>\r\n      <ApplicationId>010.2019.00056587.001
         \                            </ApplicationId>\r\n      <lnk_typ>861</lnk_typ>\r\n
         \     <PartyRole>Principal Certifying Authority          </PartyRole>\r\n
         \     <FamilyName>Buildcert Consultants - Central Coast             </FamilyName>\r\n
@@ -1359,15 +1635,6 @@ http_interactions:
         \ 2260                     </Line2>\r\n      <Line3 xml:space=\"preserve\">
         \                                       </Line3>\r\n      <TelephoneNumber
         xml:space=\"preserve\"> </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00056587.001</ApplicationIdS>\r\n
-        \   </Party>\r\n    <Party>\r\n      <PersonId>167769</PersonId>\r\n      <ApplicationId>010.2019.00056587.001
-        \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
-        \     <PartyRole>Applicant                               </PartyRole>\r\n
-        \     <FamilyName>Sherd                                             </FamilyName>\r\n
-        \     <GivenName>Carol Lee</GivenName>\r\n      <Initial>C L  </Initial>\r\n
-        \     <Title>GCC</Title>\r\n      <FullName> C L Sherd</FullName>\r\n      <Line1>6
-        Sotherby Avenue                       </Line1>\r\n      <Line2>TERRIGAL  NSW
-        \ 2260                     </Line2>\r\n      <TelephoneNumber>02 4365 0433
-        </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00056587.001</ApplicationIdS>\r\n
         \   </Party>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>010.2019.00056588.001
         </ApplicationId>\r\n    <NatureOfApplication>Complying Development Cert.</NatureOfApplication>\r\n
         \   <NatureOfApplicationType>10</NatureOfApplicationType>\r\n    <Category>Patio
@@ -1410,16 +1677,6 @@ http_interactions:
         \     <StreetName>Picketts Valley Road</StreetName>\r\n      <Line1>3 / 21
         \ Picketts Valley Road</Line1>\r\n      <Line2>PICKETTS VALLEY NSW 2251</Line2>\r\n
         \     <ApplicationIdS>010.2019.00056588.001</ApplicationIdS>\r\n    </Address>\r\n
-        \   <Party>\r\n      <PersonId>425878</PersonId>\r\n      <ApplicationId>010.2019.00056588.001
-        \                            </ApplicationId>\r\n      <lnk_typ>861</lnk_typ>\r\n
-        \     <PartyRole>Principal Certifying Authority          </PartyRole>\r\n
-        \     <FamilyName>Certibuild                                        </FamilyName>\r\n
-        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <Title>CO</Title>\r\n
-        \     <FullName> Certibuild</FullName>\r\n      <Line1>Se1.2  6 Reliance Dr
-        \                   </Line1>\r\n      <Line2>TUGGERAH  NSW  2259                     </Line2>\r\n
-        \     <TelephoneNumber> 02 4353 3459</TelephoneNumber>\r\n      <EmailAddress>info@certibuild.com.au
-        \                                                                                                         </EmailAddress>\r\n
-        \     <ApplicationIdS>010.2019.00056588.001</ApplicationIdS>\r\n    </Party>\r\n
         \   <Party>\r\n      <PersonId>379089</PersonId>\r\n      <ApplicationId>010.2019.00056588.001
         \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
         \     <PartyRole>Applicant                               </PartyRole>\r\n
@@ -1429,6 +1686,16 @@ http_interactions:
         Picketts Valley Road               </Line1>\r\n      <Line2>PICKETTS VALLEY
         \ NSW  2251              </Line2>\r\n      <TelephoneNumber>02 4365 5040 </TelephoneNumber>\r\n
         \     <EmailAddress>kelliecreed@yahoo.co.uk                                                                                                         </EmailAddress>\r\n
+        \     <ApplicationIdS>010.2019.00056588.001</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Party>\r\n      <PersonId>425878</PersonId>\r\n      <ApplicationId>010.2019.00056588.001
+        \                            </ApplicationId>\r\n      <lnk_typ>861</lnk_typ>\r\n
+        \     <PartyRole>Principal Certifying Authority          </PartyRole>\r\n
+        \     <FamilyName>Certibuild                                        </FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <Title>CO</Title>\r\n
+        \     <FullName> Certibuild</FullName>\r\n      <Line1>Se1.2  6 Reliance Dr
+        \                   </Line1>\r\n      <Line2>TUGGERAH  NSW  2259                     </Line2>\r\n
+        \     <TelephoneNumber> 02 4353 3459</TelephoneNumber>\r\n      <EmailAddress>info@certibuild.com.au
+        \                                                                                                         </EmailAddress>\r\n
         \     <ApplicationIdS>010.2019.00056588.001</ApplicationIdS>\r\n    </Party>\r\n
         \   <Party>\r\n      <PersonId>245350</PersonId>\r\n      <ApplicationId>010.2019.00056588.001
         \                            </ApplicationId>\r\n      <lnk_typ>852</lnk_typ>\r\n
@@ -2624,7 +2891,23 @@ http_interactions:
         \     <GeoRSS>-33.454190 151.431464</GeoRSS>\r\n      <LatLng>-33.454190,151.431464</LatLng>\r\n
         \     <StreetName>Lake Shore Drive</StreetName>\r\n      <Line1>51  Lake Shore
         Drive</Line1>\r\n      <Line2>NORTH AVOCA NSW 2260</Line2>\r\n      <ApplicationIdS>012.2019.00056383.001</ApplicationIdS>\r\n
-        \   </Address>\r\n    <Party>\r\n      <PersonId>462248</PersonId>\r\n      <ApplicationId>012.2019.00056383.001
+        \   </Address>\r\n    <Party>\r\n      <PersonId>212007</PersonId>\r\n      <ApplicationId>012.2019.00056383.001
+        \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
+        \     <PartyRole>Applicant                               </PartyRole>\r\n
+        \     <FamilyName>Ozturker                                          </FamilyName>\r\n
+        \     <GivenName>Naim </GivenName>\r\n      <Initial>N    </Initial>\r\n      <Title>GCC</Title>\r\n
+        \     <FullName> N Ozturker</FullName>\r\n      <Line1>51 Lake Shore Drive
+        \                    </Line1>\r\n      <Line2>NORTH AVOCA  NSW  2260                  </Line2>\r\n
+        \     <TelephoneNumber xml:space=\"preserve\"> </TelephoneNumber>\r\n      <ApplicationIdS>012.2019.00056383.001</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PersonId>212007</PersonId>\r\n      <ApplicationId>012.2019.00056383.001
+        \                            </ApplicationId>\r\n      <lnk_typ>852</lnk_typ>\r\n
+        \     <PartyRole>Builder                                 </PartyRole>\r\n
+        \     <FamilyName>Ozturker                                          </FamilyName>\r\n
+        \     <GivenName>Naim </GivenName>\r\n      <Initial>N    </Initial>\r\n      <Title>GCC</Title>\r\n
+        \     <FullName> N Ozturker</FullName>\r\n      <Line1>51 Lake Shore Drive
+        \                    </Line1>\r\n      <Line2>NORTH AVOCA  NSW  2260                  </Line2>\r\n
+        \     <TelephoneNumber xml:space=\"preserve\"> </TelephoneNumber>\r\n      <ApplicationIdS>012.2019.00056383.001</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PersonId>462248</PersonId>\r\n      <ApplicationId>012.2019.00056383.001
         \                            </ApplicationId>\r\n      <lnk_typ>861</lnk_typ>\r\n
         \     <PartyRole>Principal Certifying Authority          </PartyRole>\r\n
         \     <FamilyName>Chris Dan Certification Pty Ltd                   </FamilyName>\r\n
@@ -2634,23 +2917,7 @@ http_interactions:
         \ NSW  2261               </Line2>\r\n      <TelephoneNumber>02 4332 6888
         </TelephoneNumber>\r\n      <EmailAddress>adminmanager@cdcert.com.au                                                                                                      </EmailAddress>\r\n
         \     <ApplicationIdS>012.2019.00056383.001</ApplicationIdS>\r\n    </Party>\r\n
-        \   <Party>\r\n      <PersonId>212007</PersonId>\r\n      <ApplicationId>012.2019.00056383.001
-        \                            </ApplicationId>\r\n      <lnk_typ>852</lnk_typ>\r\n
-        \     <PartyRole>Builder                                 </PartyRole>\r\n
-        \     <FamilyName>Ozturker                                          </FamilyName>\r\n
-        \     <GivenName>Naim </GivenName>\r\n      <Initial>N    </Initial>\r\n      <Title>GCC</Title>\r\n
-        \     <FullName> N Ozturker</FullName>\r\n      <Line1>51 Lake Shore Drive
-        \                    </Line1>\r\n      <Line2>NORTH AVOCA  NSW  2260                  </Line2>\r\n
-        \     <TelephoneNumber xml:space=\"preserve\"> </TelephoneNumber>\r\n      <ApplicationIdS>012.2019.00056383.001</ApplicationIdS>\r\n
-        \   </Party>\r\n    <Party>\r\n      <PersonId>212007</PersonId>\r\n      <ApplicationId>012.2019.00056383.001
-        \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
-        \     <PartyRole>Applicant                               </PartyRole>\r\n
-        \     <FamilyName>Ozturker                                          </FamilyName>\r\n
-        \     <GivenName>Naim </GivenName>\r\n      <Initial>N    </Initial>\r\n      <Title>GCC</Title>\r\n
-        \     <FullName> N Ozturker</FullName>\r\n      <Line1>51 Lake Shore Drive
-        \                    </Line1>\r\n      <Line2>NORTH AVOCA  NSW  2260                  </Line2>\r\n
-        \     <TelephoneNumber xml:space=\"preserve\"> </TelephoneNumber>\r\n      <ApplicationIdS>012.2019.00056383.001</ApplicationIdS>\r\n
-        \   </Party>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>012.2019.00056583.001
+        \ </Application>\r\n  <Application>\r\n    <ApplicationId>012.2019.00056583.001
         </ApplicationId>\r\n    <NatureOfApplication>Construction Certificate</NatureOfApplication>\r\n
         \   <NatureOfApplicationType>12</NatureOfApplicationType>\r\n    <Category>Deck
         \                                   </Category>\r\n    <ReferenceNumber>012.2019.00056583.001
@@ -3062,7 +3329,16 @@ http_interactions:
         151.433095</GeoRSS>\r\n      <LatLng>-33.408950,151.433095</LatLng>\r\n      <StreetName>Matcham
         Road</StreetName>\r\n      <Line1>304 Matcham Road</Line1>\r\n      <Line2>MATCHAM
         NSW 2250</Line2>\r\n      <ApplicationIdS>010.2019.00056591.001</ApplicationIdS>\r\n
-        \   </Address>\r\n    <Party>\r\n      <PersonId>318291</PersonId>\r\n      <ApplicationId>010.2019.00056591.001
+        \   </Address>\r\n    <Party>\r\n      <PersonId>68394</PersonId>\r\n      <ApplicationId>010.2019.00056591.001
+        \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
+        \     <PartyRole>Applicant                               </PartyRole>\r\n
+        \     <FamilyName>Reed                                              </FamilyName>\r\n
+        \     <GivenName>Richard William</GivenName>\r\n      <Initial>R W  </Initial>\r\n
+        \     <Title>GCC</Title>\r\n      <FullName> R W Reed</FullName>\r\n      <Line1>304
+        Matcham Road                        </Line1>\r\n      <Line2>MATCHAM  NSW
+        \ 2250                      </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
+        </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00056591.001</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PersonId>318291</PersonId>\r\n      <ApplicationId>010.2019.00056591.001
         \                            </ApplicationId>\r\n      <lnk_typ>861</lnk_typ>\r\n
         \     <PartyRole>Principal Certifying Authority          </PartyRole>\r\n
         \     <FamilyName>Con-Cert Pty Ltd                                  </FamilyName>\r\n
@@ -3087,15 +3363,6 @@ http_interactions:
         \     <FamilyName>Reed                                              </FamilyName>\r\n
         \     <GivenName>Lisa Nicole</GivenName>\r\n      <Initial>L N  </Initial>\r\n
         \     <Title>GCC</Title>\r\n      <FullName> L N Reed</FullName>\r\n      <Line1>304
-        Matcham Road                        </Line1>\r\n      <Line2>MATCHAM  NSW
-        \ 2250                      </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
-        </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00056591.001</ApplicationIdS>\r\n
-        \   </Party>\r\n    <Party>\r\n      <PersonId>68394</PersonId>\r\n      <ApplicationId>010.2019.00056591.001
-        \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
-        \     <PartyRole>Applicant                               </PartyRole>\r\n
-        \     <FamilyName>Reed                                              </FamilyName>\r\n
-        \     <GivenName>Richard William</GivenName>\r\n      <Initial>R W  </Initial>\r\n
-        \     <Title>GCC</Title>\r\n      <FullName> R W Reed</FullName>\r\n      <Line1>304
         Matcham Road                        </Line1>\r\n      <Line2>MATCHAM  NSW
         \ 2250                      </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
         </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00056591.001</ApplicationIdS>\r\n
@@ -3139,7 +3406,16 @@ http_interactions:
         \     <GeoRSS />\r\n      <LatLng />\r\n      <StreetName>Sumner Circuit</StreetName>\r\n
         \     <Line1>50  Sumner Circuit</Line1>\r\n      <Line2>TERRIGAL NSW 2260</Line2>\r\n
         \     <ApplicationIdS>010.2019.00056592.001</ApplicationIdS>\r\n    </Address>\r\n
-        \   <Party>\r\n      <PersonId>425878</PersonId>\r\n      <ApplicationId>010.2019.00056592.001
+        \   <Party>\r\n      <PersonId>232906</PersonId>\r\n      <ApplicationId>010.2019.00056592.001
+        \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
+        \     <PartyRole>Applicant                               </PartyRole>\r\n
+        \     <FamilyName>Bush                                              </FamilyName>\r\n
+        \     <GivenName>Jason Michael</GivenName>\r\n      <Initial>J M  </Initial>\r\n
+        \     <Title>GCC</Title>\r\n      <FullName> J M Bush</FullName>\r\n      <Line1>10
+        Sunhill Crescent                     </Line1>\r\n      <Line2>ERINA  NSW  2250
+        \                       </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
+        </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00056592.001</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PersonId>425878</PersonId>\r\n      <ApplicationId>010.2019.00056592.001
         \                            </ApplicationId>\r\n      <lnk_typ>861</lnk_typ>\r\n
         \     <PartyRole>Principal Certifying Authority          </PartyRole>\r\n
         \     <FamilyName>Certibuild                                        </FamilyName>\r\n
@@ -3148,16 +3424,6 @@ http_interactions:
         \                   </Line1>\r\n      <Line2>TUGGERAH  NSW  2259                     </Line2>\r\n
         \     <TelephoneNumber> 02 4353 3459</TelephoneNumber>\r\n      <EmailAddress>info@certibuild.com.au
         \                                                                                                         </EmailAddress>\r\n
-        \     <ApplicationIdS>010.2019.00056592.001</ApplicationIdS>\r\n    </Party>\r\n
-        \   <Party>\r\n      <PersonId>232905</PersonId>\r\n      <ApplicationId>010.2019.00056592.001
-        \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
-        \     <PartyRole>Applicant                               </PartyRole>\r\n
-        \     <FamilyName>Bush                                              </FamilyName>\r\n
-        \     <GivenName>Chantal Belinda</GivenName>\r\n      <Initial>C B  </Initial>\r\n
-        \     <Title>GCC</Title>\r\n      <FullName> C B Bush</FullName>\r\n      <Line1>10
-        Sunhill Crescent                     </Line1>\r\n      <Line2>ERINA  NSW  2250
-        \                       </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
-        </TelephoneNumber>\r\n      <EmailAddress>chantal_bush@hih.com.au                                                                                                         </EmailAddress>\r\n
         \     <ApplicationIdS>010.2019.00056592.001</ApplicationIdS>\r\n    </Party>\r\n
         \   <Party>\r\n      <PersonId>232905</PersonId>\r\n      <ApplicationId>010.2019.00056592.001
         \                            </ApplicationId>\r\n      <lnk_typ>852</lnk_typ>\r\n
@@ -3169,16 +3435,17 @@ http_interactions:
         \                       </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
         </TelephoneNumber>\r\n      <EmailAddress>chantal_bush@hih.com.au                                                                                                         </EmailAddress>\r\n
         \     <ApplicationIdS>010.2019.00056592.001</ApplicationIdS>\r\n    </Party>\r\n
-        \   <Party>\r\n      <PersonId>232906</PersonId>\r\n      <ApplicationId>010.2019.00056592.001
+        \   <Party>\r\n      <PersonId>232905</PersonId>\r\n      <ApplicationId>010.2019.00056592.001
         \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
         \     <PartyRole>Applicant                               </PartyRole>\r\n
         \     <FamilyName>Bush                                              </FamilyName>\r\n
-        \     <GivenName>Jason Michael</GivenName>\r\n      <Initial>J M  </Initial>\r\n
-        \     <Title>GCC</Title>\r\n      <FullName> J M Bush</FullName>\r\n      <Line1>10
+        \     <GivenName>Chantal Belinda</GivenName>\r\n      <Initial>C B  </Initial>\r\n
+        \     <Title>GCC</Title>\r\n      <FullName> C B Bush</FullName>\r\n      <Line1>10
         Sunhill Crescent                     </Line1>\r\n      <Line2>ERINA  NSW  2250
         \                       </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
-        </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00056592.001</ApplicationIdS>\r\n
-        \   </Party>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>010.2019.00056594.001
+        </TelephoneNumber>\r\n      <EmailAddress>chantal_bush@hih.com.au                                                                                                         </EmailAddress>\r\n
+        \     <ApplicationIdS>010.2019.00056592.001</ApplicationIdS>\r\n    </Party>\r\n
+        \ </Application>\r\n  <Application>\r\n    <ApplicationId>010.2019.00056594.001
         </ApplicationId>\r\n    <NatureOfApplication>Complying Development Cert.</NatureOfApplication>\r\n
         \   <NatureOfApplicationType>10</NatureOfApplicationType>\r\n    <Category>Swimming
         Pool In-ground                 </Category>\r\n    <ReferenceNumber>010.2019.00056594.001
@@ -3221,7 +3488,16 @@ http_interactions:
         \     <GeoRSS>-33.447954 151.437504</GeoRSS>\r\n      <LatLng>-33.447954,151.437504</LatLng>\r\n
         \     <StreetName>Trevally Close</StreetName>\r\n      <Line1>18  Trevally
         Close</Line1>\r\n      <Line2>TERRIGAL NSW 2260</Line2>\r\n      <ApplicationIdS>010.2019.00056594.001</ApplicationIdS>\r\n
-        \   </Address>\r\n    <Party>\r\n      <PersonId>311134</PersonId>\r\n      <ApplicationId>010.2019.00056594.001
+        \   </Address>\r\n    <Party>\r\n      <PersonId>307444</PersonId>\r\n      <ApplicationId>010.2019.00056594.001
+        \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
+        \     <PartyRole>Applicant                               </PartyRole>\r\n
+        \     <FamilyName>Black                                             </FamilyName>\r\n
+        \     <GivenName>Benjamin John</GivenName>\r\n      <Initial>B J  </Initial>\r\n
+        \     <Title>GCC</Title>\r\n      <FullName> B J Black</FullName>\r\n      <Line1>18
+        Trevally Close                       </Line1>\r\n      <Line2>TERRIGAL  NSW
+        \ 2260                     </Line2>\r\n      <TelephoneNumber>4385 3183 </TelephoneNumber>\r\n
+        \     <ApplicationIdS>010.2019.00056594.001</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Party>\r\n      <PersonId>311134</PersonId>\r\n      <ApplicationId>010.2019.00056594.001
         \                            </ApplicationId>\r\n      <lnk_typ>861</lnk_typ>\r\n
         \     <PartyRole>Principal Certifying Authority          </PartyRole>\r\n
         \     <FamilyName>To Be Advised                                     </FamilyName>\r\n
@@ -3237,16 +3513,7 @@ http_interactions:
         \     <FullName> To Be Advised</FullName>\r\n      <Line1>For use in DA Applications
         ONLY         </Line1>\r\n      <Line2 xml:space=\"preserve\">                                        </Line2>\r\n
         \     <TelephoneNumber xml:space=\"preserve\"> </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00056594.001</ApplicationIdS>\r\n
-        \   </Party>\r\n    <Party>\r\n      <PersonId>307444</PersonId>\r\n      <ApplicationId>010.2019.00056594.001
-        \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
-        \     <PartyRole>Applicant                               </PartyRole>\r\n
-        \     <FamilyName>Black                                             </FamilyName>\r\n
-        \     <GivenName>Benjamin John</GivenName>\r\n      <Initial>B J  </Initial>\r\n
-        \     <Title>GCC</Title>\r\n      <FullName> B J Black</FullName>\r\n      <Line1>18
-        Trevally Close                       </Line1>\r\n      <Line2>TERRIGAL  NSW
-        \ 2260                     </Line2>\r\n      <TelephoneNumber>4385 3183 </TelephoneNumber>\r\n
-        \     <ApplicationIdS>010.2019.00056594.001</ApplicationIdS>\r\n    </Party>\r\n
-        \   <Party>\r\n      <PersonId>404477</PersonId>\r\n      <ApplicationId>010.2019.00056594.001
+        \   </Party>\r\n    <Party>\r\n      <PersonId>404477</PersonId>\r\n      <ApplicationId>010.2019.00056594.001
         \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
         \     <PartyRole>Applicant                               </PartyRole>\r\n
         \     <FamilyName>Black                                             </FamilyName>\r\n
@@ -4356,7 +4623,17 @@ http_interactions:
         151.355805</GeoRSS>\r\n      <LatLng>-33.385765,151.355805</LatLng>\r\n      <StreetName>Newling
         Street</StreetName>\r\n      <Line1>6  Newling Street</Line1>\r\n      <Line2>NIAGARA
         PARK NSW 2250</Line2>\r\n      <ApplicationIdS>012.2019.00056509.001</ApplicationIdS>\r\n
-        \   </Address>\r\n    <Party>\r\n      <PersonId>220692</PersonId>\r\n      <ApplicationId>012.2019.00056509.001
+        \   </Address>\r\n    <Party>\r\n      <PersonId>184786</PersonId>\r\n      <ApplicationId>012.2019.00056509.001
+        \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
+        \     <PartyRole>Applicant                               </PartyRole>\r\n
+        \     <FamilyName>Johnstone                                         </FamilyName>\r\n
+        \     <GivenName>Tracey Maree</GivenName>\r\n      <Initial>T M  </Initial>\r\n
+        \     <Title>GCC</Title>\r\n      <FullName> T M Johnstone</FullName>\r\n
+        \     <Line1>6 Newling Street                        </Line1>\r\n      <Line2>NIAGARA
+        PARK  NSW  2250                 </Line2>\r\n      <Line3 xml:space=\"preserve\">
+        \                                       </Line3>\r\n      <TelephoneNumber
+        xml:space=\"preserve\"> </TelephoneNumber>\r\n      <ApplicationIdS>012.2019.00056509.001</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PersonId>220692</PersonId>\r\n      <ApplicationId>012.2019.00056509.001
         \                            </ApplicationId>\r\n      <lnk_typ>852</lnk_typ>\r\n
         \     <PartyRole>Builder                                 </PartyRole>\r\n
         \     <FamilyName>Pools of Distinction                              </FamilyName>\r\n
@@ -4375,17 +4652,7 @@ http_interactions:
         \     <Line2>WAMBERAL  NSW  2260                     </Line2>\r\n      <TelephoneNumber>
         4384 4007</TelephoneNumber>\r\n      <EmailAddress>con-cert@bigpond.com                                                                                                            </EmailAddress>\r\n
         \     <ApplicationIdS>012.2019.00056509.001</ApplicationIdS>\r\n    </Party>\r\n
-        \   <Party>\r\n      <PersonId>184786</PersonId>\r\n      <ApplicationId>012.2019.00056509.001
-        \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
-        \     <PartyRole>Applicant                               </PartyRole>\r\n
-        \     <FamilyName>Johnstone                                         </FamilyName>\r\n
-        \     <GivenName>Tracey Maree</GivenName>\r\n      <Initial>T M  </Initial>\r\n
-        \     <Title>GCC</Title>\r\n      <FullName> T M Johnstone</FullName>\r\n
-        \     <Line1>6 Newling Street                        </Line1>\r\n      <Line2>NIAGARA
-        PARK  NSW  2250                 </Line2>\r\n      <Line3 xml:space=\"preserve\">
-        \                                       </Line3>\r\n      <TelephoneNumber
-        xml:space=\"preserve\"> </TelephoneNumber>\r\n      <ApplicationIdS>012.2019.00056509.001</ApplicationIdS>\r\n
-        \   </Party>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>012.2019.00056596.001
+        \ </Application>\r\n  <Application>\r\n    <ApplicationId>012.2019.00056596.001
         </ApplicationId>\r\n    <NatureOfApplication>Construction Certificate</NatureOfApplication>\r\n
         \   <NatureOfApplicationType>12</NatureOfApplicationType>\r\n    <Category>Dwelling
         Addition                       </Category>\r\n    <ReferenceNumber>012.2019.00056596.001
@@ -4568,7 +4835,15 @@ http_interactions:
         \     <GeoRSS>-33.511702 151.321111</GeoRSS>\r\n      <LatLng>-33.511702,151.321111</LatLng>\r\n
         \     <StreetName>Harold Street</StreetName>\r\n      <Line1>16  Harold Street</Line1>\r\n
         \     <Line2>UMINA BEACH NSW 2257</Line2>\r\n      <ApplicationIdS>010.2019.00056608.001</ApplicationIdS>\r\n
-        \   </Address>\r\n    <Party>\r\n      <PersonId>407005</PersonId>\r\n      <ApplicationId>010.2019.00056608.001
+        \   </Address>\r\n    <Party>\r\n      <PersonId>207424</PersonId>\r\n      <ApplicationId>010.2019.00056608.001
+        \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
+        \     <PartyRole>Applicant                               </PartyRole>\r\n
+        \     <FamilyName>Papadoniou                                        </FamilyName>\r\n
+        \     <GivenName>Jim </GivenName>\r\n      <Initial>J    </Initial>\r\n      <Title>GCC</Title>\r\n
+        \     <FullName> J Papadoniou</FullName>\r\n      <Line1>17 Arthur Street
+        \                       </Line1>\r\n      <Line2>RYDE  NSW  2112                         </Line2>\r\n
+        \     <TelephoneNumber xml:space=\"preserve\"> </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00056608.001</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PersonId>407005</PersonId>\r\n      <ApplicationId>010.2019.00056608.001
         \                            </ApplicationId>\r\n      <lnk_typ>861</lnk_typ>\r\n
         \     <PartyRole>Principal Certifying Authority          </PartyRole>\r\n
         \     <FamilyName>Central Coast Certifiers Pty Ltd                  </FamilyName>\r\n
@@ -4585,14 +4860,6 @@ http_interactions:
         \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <Title>CO</Title>\r\n
         \     <FullName> Goulding Constructions</FullName>\r\n      <Line1>16 Dorothy
         Avenue                       </Line1>\r\n      <Line2>WOY WOY  NSW  2256                      </Line2>\r\n
-        \     <TelephoneNumber xml:space=\"preserve\"> </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00056608.001</ApplicationIdS>\r\n
-        \   </Party>\r\n    <Party>\r\n      <PersonId>207424</PersonId>\r\n      <ApplicationId>010.2019.00056608.001
-        \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
-        \     <PartyRole>Applicant                               </PartyRole>\r\n
-        \     <FamilyName>Papadoniou                                        </FamilyName>\r\n
-        \     <GivenName>Jim </GivenName>\r\n      <Initial>J    </Initial>\r\n      <Title>GCC</Title>\r\n
-        \     <FullName> J Papadoniou</FullName>\r\n      <Line1>17 Arthur Street
-        \                       </Line1>\r\n      <Line2>RYDE  NSW  2112                         </Line2>\r\n
         \     <TelephoneNumber xml:space=\"preserve\"> </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00056608.001</ApplicationIdS>\r\n
         \   </Party>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>010.2019.00056609.001
         </ApplicationId>\r\n    <NatureOfApplication>Complying Development Cert.</NatureOfApplication>\r\n
@@ -4637,7 +4904,17 @@ http_interactions:
         \     <GeoRSS>-33.545077 151.306307</GeoRSS>\r\n      <LatLng>-33.545077,151.306307</LatLng>\r\n
         \     <StreetName>Diamond Road</StreetName>\r\n      <Line1>11  Diamond Road</Line1>\r\n
         \     <Line2>PEARL BEACH NSW 2256</Line2>\r\n      <ApplicationIdS>010.2019.00056609.001</ApplicationIdS>\r\n
-        \   </Address>\r\n    <Party>\r\n      <PersonId>407005</PersonId>\r\n      <ApplicationId>010.2019.00056609.001
+        \   </Address>\r\n    <Party>\r\n      <PersonId>459327</PersonId>\r\n      <ApplicationId>010.2019.00056609.001
+        \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
+        \     <PartyRole>Applicant                               </PartyRole>\r\n
+        \     <FamilyName>Luce                                              </FamilyName>\r\n
+        \     <GivenName>Carla </GivenName>\r\n      <Initial>C    </Initial>\r\n
+        \     <Title>GCC</Title>\r\n      <FullName> C Luce</FullName>\r\n      <Line1>11
+        Elfin Hill Road                      </Line1>\r\n      <Line2>GREEN POINT
+        \ NSW  2250                  </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
+        </TelephoneNumber>\r\n      <EmailAddress>carlaluce77@gmail.com                                                                                                           </EmailAddress>\r\n
+        \     <ApplicationIdS>010.2019.00056609.001</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Party>\r\n      <PersonId>407005</PersonId>\r\n      <ApplicationId>010.2019.00056609.001
         \                            </ApplicationId>\r\n      <lnk_typ>861</lnk_typ>\r\n
         \     <PartyRole>Principal Certifying Authority          </PartyRole>\r\n
         \     <FamilyName>Central Coast Certifiers Pty Ltd                  </FamilyName>\r\n
@@ -4655,17 +4932,7 @@ http_interactions:
         \     <FullName> To Be Advised</FullName>\r\n      <Line1>For use in DA Applications
         ONLY         </Line1>\r\n      <Line2 xml:space=\"preserve\">                                        </Line2>\r\n
         \     <TelephoneNumber xml:space=\"preserve\"> </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00056609.001</ApplicationIdS>\r\n
-        \   </Party>\r\n    <Party>\r\n      <PersonId>459327</PersonId>\r\n      <ApplicationId>010.2019.00056609.001
-        \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
-        \     <PartyRole>Applicant                               </PartyRole>\r\n
-        \     <FamilyName>Luce                                              </FamilyName>\r\n
-        \     <GivenName>Carla </GivenName>\r\n      <Initial>C    </Initial>\r\n
-        \     <Title>GCC</Title>\r\n      <FullName> C Luce</FullName>\r\n      <Line1>11
-        Elfin Hill Road                      </Line1>\r\n      <Line2>GREEN POINT
-        \ NSW  2250                  </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
-        </TelephoneNumber>\r\n      <EmailAddress>carlaluce77@gmail.com                                                                                                           </EmailAddress>\r\n
-        \     <ApplicationIdS>010.2019.00056609.001</ApplicationIdS>\r\n    </Party>\r\n
-        \ </Application>\r\n  <Application>\r\n    <ApplicationId>011.2017.00052048.002
+        \   </Party>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>011.2017.00052048.002
         </ApplicationId>\r\n    <NatureOfApplication>Development Application</NatureOfApplication>\r\n
         \   <NatureOfApplicationType>11</NatureOfApplicationType>\r\n    <Category>Section
         4.55 Amendment                  </Category>\r\n    <ReferenceNumber>011.2017.00052048.002
@@ -6718,25 +6985,7 @@ http_interactions:
         \     <GeoRSS>-33.435642 151.386422</GeoRSS>\r\n      <LatLng>-33.435642,151.386422</LatLng>\r\n
         \     <StreetName>The Entrance Road</StreetName>\r\n      <Line1>200  The
         Entrance Road</Line1>\r\n      <Line2>ERINA NSW 2250</Line2>\r\n      <ApplicationIdS>010.2019.00056617.001</ApplicationIdS>\r\n
-        \   </Address>\r\n    <Party>\r\n      <PersonId>311134</PersonId>\r\n      <ApplicationId>010.2019.00056617.001
-        \                            </ApplicationId>\r\n      <lnk_typ>852</lnk_typ>\r\n
-        \     <PartyRole>Builder                                 </PartyRole>\r\n
-        \     <FamilyName>To Be Advised                                     </FamilyName>\r\n
-        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <Title>CO</Title>\r\n
-        \     <FullName> To Be Advised</FullName>\r\n      <Line1>For use in DA Applications
-        ONLY         </Line1>\r\n      <Line2 xml:space=\"preserve\">                                        </Line2>\r\n
-        \     <TelephoneNumber xml:space=\"preserve\"> </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00056617.001</ApplicationIdS>\r\n
-        \   </Party>\r\n    <Party>\r\n      <PersonId>422895</PersonId>\r\n      <ApplicationId>010.2019.00056617.001
-        \                            </ApplicationId>\r\n      <lnk_typ>861</lnk_typ>\r\n
-        \     <PartyRole>Principal Certifying Authority          </PartyRole>\r\n
-        \     <FamilyName>McCarthy Consulting Group Pty Ltd - NSW           </FamilyName>\r\n
-        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <Title>CO</Title>\r\n
-        \     <FullName> McCarthy Consulting Group Pty Ltd - NSW</FullName>\r\n      <Line1>PO
-        Box 615                              </Line1>\r\n      <Line2>TOORMINA  NSW
-        \ 2452                     </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
-        </TelephoneNumber>\r\n      <EmailAddress>paul@mccarthysgroup.com                                                                                                         </EmailAddress>\r\n
-        \     <ApplicationIdS>010.2019.00056617.001</ApplicationIdS>\r\n    </Party>\r\n
-        \   <Party>\r\n      <PersonId>430558</PersonId>\r\n      <ApplicationId>010.2019.00056617.001
+        \   </Address>\r\n    <Party>\r\n      <PersonId>430558</PersonId>\r\n      <ApplicationId>010.2019.00056617.001
         \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
         \     <PartyRole>Applicant                               </PartyRole>\r\n
         \     <FamilyName>Evoke Projects Pty Ltd                            </FamilyName>\r\n
@@ -6746,7 +6995,25 @@ http_interactions:
         \                     </Line2>\r\n      <TelephoneNumber> 1300 720 692</TelephoneNumber>\r\n
         \     <EmailAddress>info@evokeprojects.com.au                                                                                                       </EmailAddress>\r\n
         \     <ApplicationIdS>010.2019.00056617.001</ApplicationIdS>\r\n    </Party>\r\n
-        \ </Application>\r\n  <Application>\r\n    <ApplicationId>010.2019.00056618.001
+        \   <Party>\r\n      <PersonId>422895</PersonId>\r\n      <ApplicationId>010.2019.00056617.001
+        \                            </ApplicationId>\r\n      <lnk_typ>861</lnk_typ>\r\n
+        \     <PartyRole>Principal Certifying Authority          </PartyRole>\r\n
+        \     <FamilyName>McCarthy Consulting Group Pty Ltd - NSW           </FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <Title>CO</Title>\r\n
+        \     <FullName> McCarthy Consulting Group Pty Ltd - NSW</FullName>\r\n      <Line1>PO
+        Box 615                              </Line1>\r\n      <Line2>TOORMINA  NSW
+        \ 2452                     </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
+        </TelephoneNumber>\r\n      <EmailAddress>paul@mccarthysgroup.com                                                                                                         </EmailAddress>\r\n
+        \     <ApplicationIdS>010.2019.00056617.001</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Party>\r\n      <PersonId>311134</PersonId>\r\n      <ApplicationId>010.2019.00056617.001
+        \                            </ApplicationId>\r\n      <lnk_typ>852</lnk_typ>\r\n
+        \     <PartyRole>Builder                                 </PartyRole>\r\n
+        \     <FamilyName>To Be Advised                                     </FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <Title>CO</Title>\r\n
+        \     <FullName> To Be Advised</FullName>\r\n      <Line1>For use in DA Applications
+        ONLY         </Line1>\r\n      <Line2 xml:space=\"preserve\">                                        </Line2>\r\n
+        \     <TelephoneNumber xml:space=\"preserve\"> </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00056617.001</ApplicationIdS>\r\n
+        \   </Party>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>010.2019.00056618.001
         </ApplicationId>\r\n    <NatureOfApplication>Complying Development Cert.</NatureOfApplication>\r\n
         \   <NatureOfApplicationType>10</NatureOfApplicationType>\r\n    <Category>Swimming
         Pool In-ground                 </Category>\r\n    <ReferenceNumber>010.2019.00056618.001
@@ -6790,7 +7057,17 @@ http_interactions:
         \     <GeoRSS>-33.414377 151.461602</GeoRSS>\r\n      <LatLng>-33.414377,151.461602</LatLng>\r\n
         \     <StreetName>Kalakau Avenue</StreetName>\r\n      <Line1>51  Kalakau
         Avenue</Line1>\r\n      <Line2>FORRESTERS BEACH NSW 2260</Line2>\r\n      <ApplicationIdS>010.2019.00056618.001</ApplicationIdS>\r\n
-        \   </Address>\r\n    <Party>\r\n      <PersonId>407005</PersonId>\r\n      <ApplicationId>010.2019.00056618.001
+        \   </Address>\r\n    <Party>\r\n      <PersonId>322390</PersonId>\r\n      <ApplicationId>010.2019.00056618.001
+        \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
+        \     <PartyRole>Applicant                               </PartyRole>\r\n
+        \     <FamilyName>Dennehy                                           </FamilyName>\r\n
+        \     <GivenName>Matthew Ross</GivenName>\r\n      <Initial>M R  </Initial>\r\n
+        \     <Title>GCC</Title>\r\n      <FullName> M R Dennehy</FullName>\r\n      <Line1>51
+        Kalakau Avenue                       </Line1>\r\n      <Line2>FORRESTERS BEACH
+        \ NSW  2260             </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
+        </TelephoneNumber>\r\n      <EmailAddress>matthew_dennehy@hotmail.com                                                                                                     </EmailAddress>\r\n
+        \     <ApplicationIdS>010.2019.00056618.001</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Party>\r\n      <PersonId>407005</PersonId>\r\n      <ApplicationId>010.2019.00056618.001
         \                            </ApplicationId>\r\n      <lnk_typ>861</lnk_typ>\r\n
         \     <PartyRole>Principal Certifying Authority          </PartyRole>\r\n
         \     <FamilyName>Central Coast Certifiers Pty Ltd                  </FamilyName>\r\n
@@ -6803,16 +7080,6 @@ http_interactions:
         \   <Party>\r\n      <PersonId>322390</PersonId>\r\n      <ApplicationId>010.2019.00056618.001
         \                            </ApplicationId>\r\n      <lnk_typ>852</lnk_typ>\r\n
         \     <PartyRole>Builder                                 </PartyRole>\r\n
-        \     <FamilyName>Dennehy                                           </FamilyName>\r\n
-        \     <GivenName>Matthew Ross</GivenName>\r\n      <Initial>M R  </Initial>\r\n
-        \     <Title>GCC</Title>\r\n      <FullName> M R Dennehy</FullName>\r\n      <Line1>51
-        Kalakau Avenue                       </Line1>\r\n      <Line2>FORRESTERS BEACH
-        \ NSW  2260             </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
-        </TelephoneNumber>\r\n      <EmailAddress>matthew_dennehy@hotmail.com                                                                                                     </EmailAddress>\r\n
-        \     <ApplicationIdS>010.2019.00056618.001</ApplicationIdS>\r\n    </Party>\r\n
-        \   <Party>\r\n      <PersonId>322390</PersonId>\r\n      <ApplicationId>010.2019.00056618.001
-        \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
-        \     <PartyRole>Applicant                               </PartyRole>\r\n
         \     <FamilyName>Dennehy                                           </FamilyName>\r\n
         \     <GivenName>Matthew Ross</GivenName>\r\n      <Initial>M R  </Initial>\r\n
         \     <Title>GCC</Title>\r\n      <FullName> M R Dennehy</FullName>\r\n      <Line1>51
@@ -6861,7 +7128,16 @@ http_interactions:
         151.337100</GeoRSS>\r\n      <LatLng>-33.511238,151.337100</LatLng>\r\n      <StreetName>Picnic
         Parade</StreetName>\r\n      <Line1>19  Picnic Parade</Line1>\r\n      <Line2>ETTALONG
         BEACH NSW 2257</Line2>\r\n      <ApplicationIdS>010.2019.00056619.001</ApplicationIdS>\r\n
-        \   </Address>\r\n    <Party>\r\n      <PersonId>407005</PersonId>\r\n      <ApplicationId>010.2019.00056619.001
+        \   </Address>\r\n    <Party>\r\n      <PersonId>483895</PersonId>\r\n      <ApplicationId>010.2019.00056619.001
+        \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
+        \     <PartyRole>Applicant                               </PartyRole>\r\n
+        \     <FamilyName>Lamrock                                           </FamilyName>\r\n
+        \     <GivenName>Hugh Anthony</GivenName>\r\n      <Initial>H A  </Initial>\r\n
+        \     <Title>GCC</Title>\r\n      <FullName> H A Lamrock</FullName>\r\n      <Line1>19
+        Picnic Parade                        </Line1>\r\n      <Line2>ETTALONG BEACH
+        \ NSW  2257               </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
+        </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00056619.001</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PersonId>407005</PersonId>\r\n      <ApplicationId>010.2019.00056619.001
         \                            </ApplicationId>\r\n      <lnk_typ>861</lnk_typ>\r\n
         \     <PartyRole>Principal Certifying Authority          </PartyRole>\r\n
         \     <FamilyName>Central Coast Certifiers Pty Ltd                  </FamilyName>\r\n
@@ -6885,15 +7161,6 @@ http_interactions:
         \     <FamilyName>Dawson                                            </FamilyName>\r\n
         \     <GivenName>Narelle Megan</GivenName>\r\n      <Initial>N M  </Initial>\r\n
         \     <Title>GCC</Title>\r\n      <FullName> N M Dawson</FullName>\r\n      <Line1>19
-        Picnic Parade                        </Line1>\r\n      <Line2>ETTALONG BEACH
-        \ NSW  2257               </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
-        </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00056619.001</ApplicationIdS>\r\n
-        \   </Party>\r\n    <Party>\r\n      <PersonId>483895</PersonId>\r\n      <ApplicationId>010.2019.00056619.001
-        \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
-        \     <PartyRole>Applicant                               </PartyRole>\r\n
-        \     <FamilyName>Lamrock                                           </FamilyName>\r\n
-        \     <GivenName>Hugh Anthony</GivenName>\r\n      <Initial>H A  </Initial>\r\n
-        \     <Title>GCC</Title>\r\n      <FullName> H A Lamrock</FullName>\r\n      <Line1>19
         Picnic Parade                        </Line1>\r\n      <Line2>ETTALONG BEACH
         \ NSW  2257               </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
         </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00056619.001</ApplicationIdS>\r\n
@@ -7753,14 +8020,15 @@ http_interactions:
         \     <GeoRSS>-33.500377 151.331062</GeoRSS>\r\n      <LatLng>-33.500377,151.331062</LatLng>\r\n
         \     <StreetName>Blackwall Road</StreetName>\r\n      <Line1>274  Blackwall
         Road</Line1>\r\n      <Line2>WOY WOY NSW 2256</Line2>\r\n      <ApplicationIdS>012.2019.00056273.001</ApplicationIdS>\r\n
-        \   </Address>\r\n    <Party>\r\n      <PersonId>32192</PersonId>\r\n      <ApplicationId>012.2019.00056273.001
-        \                            </ApplicationId>\r\n      <lnk_typ>861</lnk_typ>\r\n
-        \     <PartyRole>Principal Certifying Authority          </PartyRole>\r\n
-        \     <FamilyName>Central Coast Council                             </FamilyName>\r\n
-        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <Title>CO</Title>\r\n
-        \     <FullName> Central Coast Council</FullName>\r\n      <Line1>49 Mann
-        St                              </Line1>\r\n      <Line2>GOSFORD  NSW  2250
-        \                     </Line2>\r\n      <TelephoneNumber> 0243258222</TelephoneNumber>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PersonId>426827</PersonId>\r\n      <ApplicationId>012.2019.00056273.001
+        \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
+        \     <PartyRole>Applicant                               </PartyRole>\r\n
+        \     <FamilyName>Clarsen                                           </FamilyName>\r\n
+        \     <GivenName>Robert Francis</GivenName>\r\n      <Initial>R F  </Initial>\r\n
+        \     <Title>GCC</Title>\r\n      <FullName> R F Clarsen</FullName>\r\n      <Line1>274
+        Blackwall Road                      </Line1>\r\n      <Line2>WOY WOY  NSW
+        \ 2256                      </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
+        </TelephoneNumber>\r\n      <EmailAddress>clarsonr@gmail.com                                                                                                              </EmailAddress>\r\n
         \     <ApplicationIdS>012.2019.00056273.001</ApplicationIdS>\r\n    </Party>\r\n
         \   <Party>\r\n      <PersonId>426827</PersonId>\r\n      <ApplicationId>012.2019.00056273.001
         \                            </ApplicationId>\r\n      <lnk_typ>852</lnk_typ>\r\n
@@ -7772,15 +8040,14 @@ http_interactions:
         \ 2256                      </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
         </TelephoneNumber>\r\n      <EmailAddress>clarsonr@gmail.com                                                                                                              </EmailAddress>\r\n
         \     <ApplicationIdS>012.2019.00056273.001</ApplicationIdS>\r\n    </Party>\r\n
-        \   <Party>\r\n      <PersonId>426827</PersonId>\r\n      <ApplicationId>012.2019.00056273.001
-        \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
-        \     <PartyRole>Applicant                               </PartyRole>\r\n
-        \     <FamilyName>Clarsen                                           </FamilyName>\r\n
-        \     <GivenName>Robert Francis</GivenName>\r\n      <Initial>R F  </Initial>\r\n
-        \     <Title>GCC</Title>\r\n      <FullName> R F Clarsen</FullName>\r\n      <Line1>274
-        Blackwall Road                      </Line1>\r\n      <Line2>WOY WOY  NSW
-        \ 2256                      </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
-        </TelephoneNumber>\r\n      <EmailAddress>clarsonr@gmail.com                                                                                                              </EmailAddress>\r\n
+        \   <Party>\r\n      <PersonId>32192</PersonId>\r\n      <ApplicationId>012.2019.00056273.001
+        \                            </ApplicationId>\r\n      <lnk_typ>861</lnk_typ>\r\n
+        \     <PartyRole>Principal Certifying Authority          </PartyRole>\r\n
+        \     <FamilyName>Central Coast Council                             </FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <Title>CO</Title>\r\n
+        \     <FullName> Central Coast Council</FullName>\r\n      <Line1>49 Mann
+        St                              </Line1>\r\n      <Line2>GOSFORD  NSW  2250
+        \                     </Line2>\r\n      <TelephoneNumber> 0243258222</TelephoneNumber>\r\n
         \     <ApplicationIdS>012.2019.00056273.001</ApplicationIdS>\r\n    </Party>\r\n
         \   <Event>\r\n      <ApplicationId>012.2019.00056273.001 </ApplicationId>\r\n
         \     <EventCode>BA  </EventCode>\r\n      <Description>BUILDING ASSESSMENT
@@ -7836,7 +8103,26 @@ http_interactions:
         \     <GeoRSS />\r\n      <LatLng />\r\n      <StreetName>Peckham Place</StreetName>\r\n
         \     <Line1>9  Peckham Place</Line1>\r\n      <Line2>GREEN POINT NSW 2251</Line2>\r\n
         \     <ApplicationIdS>012.2019.00056279.001</ApplicationIdS>\r\n    </Address>\r\n
-        \   <Party>\r\n      <PersonId>219057</PersonId>\r\n      <ApplicationId>012.2019.00056279.001
+        \   <Party>\r\n      <PersonId>213146</PersonId>\r\n      <ApplicationId>012.2019.00056279.001
+        \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
+        \     <PartyRole>Applicant                               </PartyRole>\r\n
+        \     <FamilyName>Renda                                             </FamilyName>\r\n
+        \     <GivenName>Ann Victoria</GivenName>\r\n      <Initial>A V  </Initial>\r\n
+        \     <Title>GCC</Title>\r\n      <FullName> A V Renda</FullName>\r\n      <Line1>33
+        Marilyn Parade                       </Line1>\r\n      <Line2>GREEN POINT
+        \ NSW  2251                  </Line2>\r\n      <Line3 xml:space=\"preserve\">
+        \                                       </Line3>\r\n      <TelephoneNumber
+        xml:space=\"preserve\"> </TelephoneNumber>\r\n      <ApplicationIdS>012.2019.00056279.001</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PersonId>480003</PersonId>\r\n      <ApplicationId>012.2019.00056279.001
+        \                            </ApplicationId>\r\n      <lnk_typ>852</lnk_typ>\r\n
+        \     <PartyRole>Builder                                 </PartyRole>\r\n
+        \     <FamilyName>Burbank Australia NSW Pty Ltd                     </FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <Title>CO</Title>\r\n
+        \     <FullName> Burbank Australia NSW Pty Ltd</FullName>\r\n      <Line1>PO
+        Box 1105                             </Line1>\r\n      <Line2>PARRAMATTA  NSW
+        \ 2124                   </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
+        </TelephoneNumber>\r\n      <ApplicationIdS>012.2019.00056279.001</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PersonId>219057</PersonId>\r\n      <ApplicationId>012.2019.00056279.001
         \                            </ApplicationId>\r\n      <lnk_typ>861</lnk_typ>\r\n
         \     <PartyRole>Principal Certifying Authority          </PartyRole>\r\n
         \     <FamilyName>City Plan Gosford Pty Ltd - City Plan Services    </FamilyName>\r\n
@@ -7853,25 +8139,6 @@ http_interactions:
         \     <FamilyName>Renda                                             </FamilyName>\r\n
         \     <GivenName>Leonard </GivenName>\r\n      <Initial>L    </Initial>\r\n
         \     <Title>GCC</Title>\r\n      <FullName> L Renda</FullName>\r\n      <Line1>33
-        Marilyn Parade                       </Line1>\r\n      <Line2>GREEN POINT
-        \ NSW  2251                  </Line2>\r\n      <Line3 xml:space=\"preserve\">
-        \                                       </Line3>\r\n      <TelephoneNumber
-        xml:space=\"preserve\"> </TelephoneNumber>\r\n      <ApplicationIdS>012.2019.00056279.001</ApplicationIdS>\r\n
-        \   </Party>\r\n    <Party>\r\n      <PersonId>480003</PersonId>\r\n      <ApplicationId>012.2019.00056279.001
-        \                            </ApplicationId>\r\n      <lnk_typ>852</lnk_typ>\r\n
-        \     <PartyRole>Builder                                 </PartyRole>\r\n
-        \     <FamilyName>Burbank Australia NSW Pty Ltd                     </FamilyName>\r\n
-        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <Title>CO</Title>\r\n
-        \     <FullName> Burbank Australia NSW Pty Ltd</FullName>\r\n      <Line1>PO
-        Box 1105                             </Line1>\r\n      <Line2>PARRAMATTA  NSW
-        \ 2124                   </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
-        </TelephoneNumber>\r\n      <ApplicationIdS>012.2019.00056279.001</ApplicationIdS>\r\n
-        \   </Party>\r\n    <Party>\r\n      <PersonId>213146</PersonId>\r\n      <ApplicationId>012.2019.00056279.001
-        \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
-        \     <PartyRole>Applicant                               </PartyRole>\r\n
-        \     <FamilyName>Renda                                             </FamilyName>\r\n
-        \     <GivenName>Ann Victoria</GivenName>\r\n      <Initial>A V  </Initial>\r\n
-        \     <Title>GCC</Title>\r\n      <FullName> A V Renda</FullName>\r\n      <Line1>33
         Marilyn Parade                       </Line1>\r\n      <Line2>GREEN POINT
         \ NSW  2251                  </Line2>\r\n      <Line3 xml:space=\"preserve\">
         \                                       </Line3>\r\n      <TelephoneNumber
@@ -9513,7 +9780,17 @@ http_interactions:
         151.358387</GeoRSS>\r\n      <LatLng>-33.429152,151.358387</LatLng>\r\n      <StreetName>Lynnette
         Crescent</StreetName>\r\n      <Line1>13  Lynnette Crescent</Line1>\r\n      <Line2>EAST
         GOSFORD NSW 2250</Line2>\r\n      <ApplicationIdS>010.2019.00056630.001</ApplicationIdS>\r\n
-        \   </Address>\r\n    <Party>\r\n      <PersonId>407005</PersonId>\r\n      <ApplicationId>010.2019.00056630.001
+        \   </Address>\r\n    <Party>\r\n      <PersonId>236157</PersonId>\r\n      <ApplicationId>010.2019.00056630.001
+        \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
+        \     <PartyRole>Applicant                               </PartyRole>\r\n
+        \     <FamilyName>Hogston                                           </FamilyName>\r\n
+        \     <GivenName>Joel Andrew</GivenName>\r\n      <Initial>J A  </Initial>\r\n
+        \     <Title>GCC</Title>\r\n      <FullName> J A Hogston</FullName>\r\n      <Line1>13
+        Lynnette Crescent                    </Line1>\r\n      <Line2>EAST GOSFORD
+        \ NSW  2250                 </Line2>\r\n      <TelephoneNumber>02 4322 1052
+        </TelephoneNumber>\r\n      <EmailAddress>meljoel@hotmail.com                                                                                                             </EmailAddress>\r\n
+        \     <ApplicationIdS>010.2019.00056630.001</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Party>\r\n      <PersonId>407005</PersonId>\r\n      <ApplicationId>010.2019.00056630.001
         \                            </ApplicationId>\r\n      <lnk_typ>861</lnk_typ>\r\n
         \     <PartyRole>Principal Certifying Authority          </PartyRole>\r\n
         \     <FamilyName>Central Coast Certifiers Pty Ltd                  </FamilyName>\r\n
@@ -9526,16 +9803,6 @@ http_interactions:
         \   <Party>\r\n      <PersonId>236157</PersonId>\r\n      <ApplicationId>010.2019.00056630.001
         \                            </ApplicationId>\r\n      <lnk_typ>852</lnk_typ>\r\n
         \     <PartyRole>Builder                                 </PartyRole>\r\n
-        \     <FamilyName>Hogston                                           </FamilyName>\r\n
-        \     <GivenName>Joel Andrew</GivenName>\r\n      <Initial>J A  </Initial>\r\n
-        \     <Title>GCC</Title>\r\n      <FullName> J A Hogston</FullName>\r\n      <Line1>13
-        Lynnette Crescent                    </Line1>\r\n      <Line2>EAST GOSFORD
-        \ NSW  2250                 </Line2>\r\n      <TelephoneNumber>02 4322 1052
-        </TelephoneNumber>\r\n      <EmailAddress>meljoel@hotmail.com                                                                                                             </EmailAddress>\r\n
-        \     <ApplicationIdS>010.2019.00056630.001</ApplicationIdS>\r\n    </Party>\r\n
-        \   <Party>\r\n      <PersonId>236157</PersonId>\r\n      <ApplicationId>010.2019.00056630.001
-        \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
-        \     <PartyRole>Applicant                               </PartyRole>\r\n
         \     <FamilyName>Hogston                                           </FamilyName>\r\n
         \     <GivenName>Joel Andrew</GivenName>\r\n      <Initial>J A  </Initial>\r\n
         \     <Title>GCC</Title>\r\n      <FullName> J A Hogston</FullName>\r\n      <Line1>13
@@ -9586,7 +9853,17 @@ http_interactions:
         \     <GeoRSS>-33.503041 151.389955</GeoRSS>\r\n      <LatLng>-33.503041,151.389955</LatLng>\r\n
         \     <StreetName>Huntly Road</StreetName>\r\n      <Line1>9  Huntly Road</Line1>\r\n
         \     <Line2>BENSVILLE NSW 2251</Line2>\r\n      <ApplicationIdS>010.2019.00056633.001</ApplicationIdS>\r\n
-        \   </Address>\r\n    <Party>\r\n      <PersonId>219057</PersonId>\r\n      <ApplicationId>010.2019.00056633.001
+        \   </Address>\r\n    <Party>\r\n      <PersonId>392537</PersonId>\r\n      <ApplicationId>010.2019.00056633.001
+        \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
+        \     <PartyRole>Applicant                               </PartyRole>\r\n
+        \     <FamilyName>Hickey                                            </FamilyName>\r\n
+        \     <GivenName>Adam James</GivenName>\r\n      <Initial>A J  </Initial>\r\n
+        \     <Title>GCC</Title>\r\n      <FullName> A J Hickey</FullName>\r\n      <Line1>41
+        Beachfront Parade                    </Line1>\r\n      <Line2>ST HUBERTS ISLAND
+        \ NSW  2257            </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
+        </TelephoneNumber>\r\n      <EmailAddress>ahickey@ausgrid.com.au                                                                                                          </EmailAddress>\r\n
+        \     <ApplicationIdS>010.2019.00056633.001</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Party>\r\n      <PersonId>219057</PersonId>\r\n      <ApplicationId>010.2019.00056633.001
         \                            </ApplicationId>\r\n      <lnk_typ>861</lnk_typ>\r\n
         \     <PartyRole>Principal Certifying Authority          </PartyRole>\r\n
         \     <FamilyName>City Plan Gosford Pty Ltd - City Plan Services    </FamilyName>\r\n
@@ -9606,16 +9883,6 @@ http_interactions:
         Reliance Dr                        </Line1>\r\n      <Line2>TUGGERAH  NSW
         \ 2259                     </Line2>\r\n      <TelephoneNumber> 02 4310 6300</TelephoneNumber>\r\n
         \     <EmailAddress>admin@narellanpoolscc.com                                                                                                       </EmailAddress>\r\n
-        \     <ApplicationIdS>010.2019.00056633.001</ApplicationIdS>\r\n    </Party>\r\n
-        \   <Party>\r\n      <PersonId>392537</PersonId>\r\n      <ApplicationId>010.2019.00056633.001
-        \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
-        \     <PartyRole>Applicant                               </PartyRole>\r\n
-        \     <FamilyName>Hickey                                            </FamilyName>\r\n
-        \     <GivenName>Adam James</GivenName>\r\n      <Initial>A J  </Initial>\r\n
-        \     <Title>GCC</Title>\r\n      <FullName> A J Hickey</FullName>\r\n      <Line1>41
-        Beachfront Parade                    </Line1>\r\n      <Line2>ST HUBERTS ISLAND
-        \ NSW  2257            </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
-        </TelephoneNumber>\r\n      <EmailAddress>ahickey@ausgrid.com.au                                                                                                          </EmailAddress>\r\n
         \     <ApplicationIdS>010.2019.00056633.001</ApplicationIdS>\r\n    </Party>\r\n
         \ </Application>\r\n  <Application>\r\n    <ApplicationId>010.2019.00056634.001
         </ApplicationId>\r\n    <NatureOfApplication>Complying Development Cert.</NatureOfApplication>\r\n
@@ -9660,17 +9927,7 @@ http_interactions:
         151.355831</GeoRSS>\r\n      <LatLng>-33.404519,151.355831</LatLng>\r\n      <StreetName>Day
         Street</StreetName>\r\n      <Line1>13  Day Street</Line1>\r\n      <Line2>WYOMING
         NSW 2250</Line2>\r\n      <ApplicationIdS>010.2019.00056634.001</ApplicationIdS>\r\n
-        \   </Address>\r\n    <Party>\r\n      <PersonId>480066</PersonId>\r\n      <ApplicationId>010.2019.00056634.001
-        \                            </ApplicationId>\r\n      <lnk_typ>852</lnk_typ>\r\n
-        \     <PartyRole>Builder                                 </PartyRole>\r\n
-        \     <FamilyName>PatioWorld                                        </FamilyName>\r\n
-        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <Title>CO</Title>\r\n
-        \     <FullName> PatioWorld</FullName>\r\n      <Line1>3/210 Manns Road                        </Line1>\r\n
-        \     <Line2>WEST GOSFORD  NSW  2250                 </Line2>\r\n      <TelephoneNumber>
-        43222800</TelephoneNumber>\r\n      <EmailAddress>sales@patioworld.net.au
-        \                                                                                                        </EmailAddress>\r\n
-        \     <ApplicationIdS>010.2019.00056634.001</ApplicationIdS>\r\n    </Party>\r\n
-        \   <Party>\r\n      <PersonId>82366</PersonId>\r\n      <ApplicationId>010.2019.00056634.001
+        \   </Address>\r\n    <Party>\r\n      <PersonId>82366</PersonId>\r\n      <ApplicationId>010.2019.00056634.001
         \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
         \     <PartyRole>Applicant                               </PartyRole>\r\n
         \     <FamilyName>Teesson                                           </FamilyName>\r\n
@@ -9688,6 +9945,16 @@ http_interactions:
         BOX W128                             </Line1>\r\n      <Line2>CESSNOCK WEST
         \ NSW  2325                </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
         </TelephoneNumber>\r\n      <EmailAddress>nicole.ncc@outlook.com.au                                                                                                       </EmailAddress>\r\n
+        \     <ApplicationIdS>010.2019.00056634.001</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Party>\r\n      <PersonId>480066</PersonId>\r\n      <ApplicationId>010.2019.00056634.001
+        \                            </ApplicationId>\r\n      <lnk_typ>852</lnk_typ>\r\n
+        \     <PartyRole>Builder                                 </PartyRole>\r\n
+        \     <FamilyName>PatioWorld                                        </FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <Title>CO</Title>\r\n
+        \     <FullName> PatioWorld</FullName>\r\n      <Line1>3/210 Manns Road                        </Line1>\r\n
+        \     <Line2>WEST GOSFORD  NSW  2250                 </Line2>\r\n      <TelephoneNumber>
+        43222800</TelephoneNumber>\r\n      <EmailAddress>sales@patioworld.net.au
+        \                                                                                                        </EmailAddress>\r\n
         \     <ApplicationIdS>010.2019.00056634.001</ApplicationIdS>\r\n    </Party>\r\n
         \ </Application>\r\n  <Application>\r\n    <ApplicationId>010.2019.00056635.001
         </ApplicationId>\r\n    <NatureOfApplication>Complying Development Cert.</NatureOfApplication>\r\n
@@ -10214,7 +10481,27 @@ http_interactions:
         \     <GeoRSS>-33.438356 151.410182</GeoRSS>\r\n      <LatLng>-33.438356,151.410182</LatLng>\r\n
         \     <StreetName>Stratford Park Drive</StreetName>\r\n      <Line1>9 A Stratford
         Park Drive</Line1>\r\n      <Line2>TERRIGAL NSW 2260</Line2>\r\n      <ApplicationIdS>012.2019.00056401.001</ApplicationIdS>\r\n
-        \   </Address>\r\n    <Party>\r\n      <PersonId>462248</PersonId>\r\n      <ApplicationId>012.2019.00056401.001
+        \   </Address>\r\n    <Party>\r\n      <PersonId>428215</PersonId>\r\n      <ApplicationId>012.2019.00056401.001
+        \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
+        \     <PartyRole>Applicant                               </PartyRole>\r\n
+        \     <FamilyName>Macari                                            </FamilyName>\r\n
+        \     <GivenName>Glenn Albert</GivenName>\r\n      <Initial>G A  </Initial>\r\n
+        \     <Title>GCC</Title>\r\n      <FullName> G A Macari</FullName>\r\n      <Line1>25
+        The Broadwaters                      </Line1>\r\n      <Line2>TASCOTT  NSW
+        \ 2250                      </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
+        </TelephoneNumber>\r\n      <EmailAddress>gm@macari.com.au                                                                                                                </EmailAddress>\r\n
+        \     <ApplicationIdS>012.2019.00056401.001</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Party>\r\n      <PersonId>388107</PersonId>\r\n      <ApplicationId>012.2019.00056401.001
+        \                            </ApplicationId>\r\n      <lnk_typ>852</lnk_typ>\r\n
+        \     <PartyRole>Builder                                 </PartyRole>\r\n
+        \     <FamilyName>DTE Building                                      </FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <Title>CO</Title>\r\n
+        \     <FullName> DTE Building</FullName>\r\n      <Line1>PO Box 7139                             </Line1>\r\n
+        \     <Line2>KARIONG  NSW  2250                      </Line2>\r\n      <TelephoneNumber
+        xml:space=\"preserve\"> </TelephoneNumber>\r\n      <EmailAddress>paul@dtebuilding.com.au
+        \                                                                                                        </EmailAddress>\r\n
+        \     <ApplicationIdS>012.2019.00056401.001</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Party>\r\n      <PersonId>462248</PersonId>\r\n      <ApplicationId>012.2019.00056401.001
         \                            </ApplicationId>\r\n      <lnk_typ>861</lnk_typ>\r\n
         \     <PartyRole>Principal Certifying Authority          </PartyRole>\r\n
         \     <FamilyName>Chris Dan Certification Pty Ltd                   </FamilyName>\r\n
@@ -10233,27 +10520,7 @@ http_interactions:
         Broadwaters                      </Line1>\r\n      <Line2>TASCOTT  NSW  2250
         \                     </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
         </TelephoneNumber>\r\n      <ApplicationIdS>012.2019.00056401.001</ApplicationIdS>\r\n
-        \   </Party>\r\n    <Party>\r\n      <PersonId>388107</PersonId>\r\n      <ApplicationId>012.2019.00056401.001
-        \                            </ApplicationId>\r\n      <lnk_typ>852</lnk_typ>\r\n
-        \     <PartyRole>Builder                                 </PartyRole>\r\n
-        \     <FamilyName>DTE Building                                      </FamilyName>\r\n
-        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <Title>CO</Title>\r\n
-        \     <FullName> DTE Building</FullName>\r\n      <Line1>PO Box 7139                             </Line1>\r\n
-        \     <Line2>KARIONG  NSW  2250                      </Line2>\r\n      <TelephoneNumber
-        xml:space=\"preserve\"> </TelephoneNumber>\r\n      <EmailAddress>paul@dtebuilding.com.au
-        \                                                                                                        </EmailAddress>\r\n
-        \     <ApplicationIdS>012.2019.00056401.001</ApplicationIdS>\r\n    </Party>\r\n
-        \   <Party>\r\n      <PersonId>428215</PersonId>\r\n      <ApplicationId>012.2019.00056401.001
-        \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
-        \     <PartyRole>Applicant                               </PartyRole>\r\n
-        \     <FamilyName>Macari                                            </FamilyName>\r\n
-        \     <GivenName>Glenn Albert</GivenName>\r\n      <Initial>G A  </Initial>\r\n
-        \     <Title>GCC</Title>\r\n      <FullName> G A Macari</FullName>\r\n      <Line1>25
-        The Broadwaters                      </Line1>\r\n      <Line2>TASCOTT  NSW
-        \ 2250                      </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
-        </TelephoneNumber>\r\n      <EmailAddress>gm@macari.com.au                                                                                                                </EmailAddress>\r\n
-        \     <ApplicationIdS>012.2019.00056401.001</ApplicationIdS>\r\n    </Party>\r\n
-        \ </Application>\r\n  <Application>\r\n    <ApplicationId>011.2015.00048475.004
+        \   </Party>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>011.2015.00048475.004
         </ApplicationId>\r\n    <NatureOfApplication>Development Application</NatureOfApplication>\r\n
         \   <NatureOfApplicationType>11</NatureOfApplicationType>\r\n    <Category>Section
         4.55 Amendment                  </Category>\r\n    <ReferenceNumber>011.2015.00048475.004
@@ -12045,7 +12312,16 @@ http_interactions:
         151.383482</GeoRSS>\r\n      <LatLng>-33.437021,151.383482</LatLng>\r\n      <StreetName>The
         Entrance Road</StreetName>\r\n      <Line1>199  The Entrance Road</Line1>\r\n
         \     <Line2>ERINA NSW 2250</Line2>\r\n      <ApplicationIdS>010.2019.00056651.001</ApplicationIdS>\r\n
-        \   </Address>\r\n    <Party>\r\n      <PersonId>367440</PersonId>\r\n      <ApplicationId>010.2019.00056651.001
+        \   </Address>\r\n    <Party>\r\n      <PersonId>319178</PersonId>\r\n      <ApplicationId>010.2019.00056651.001
+        \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
+        \     <PartyRole>Applicant                               </PartyRole>\r\n
+        \     <FamilyName>Wilkinson                                         </FamilyName>\r\n
+        \     <GivenName>Heather Athene</GivenName>\r\n      <Initial>H A  </Initial>\r\n
+        \     <Title>GCC</Title>\r\n      <FullName> H A Wilkinson</FullName>\r\n
+        \     <Line1>47 The Serpentine Dr                    </Line1>\r\n      <Line2>BILGOLA
+        BEACH  NSW  2107                </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
+        </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00056651.001</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PersonId>367440</PersonId>\r\n      <ApplicationId>010.2019.00056651.001
         \                            </ApplicationId>\r\n      <lnk_typ>861</lnk_typ>\r\n
         \     <PartyRole>Principal Certifying Authority          </PartyRole>\r\n
         \     <FamilyName>Blackett Maguire &amp; Goldsmith                      </FamilyName>\r\n
@@ -12064,16 +12340,7 @@ http_interactions:
         \     <TelephoneNumber> 0299405367</TelephoneNumber>\r\n      <EmailAddress>info@precisiondemolition.com.au
         \                                                                                                </EmailAddress>\r\n
         \     <ApplicationIdS>010.2019.00056651.001</ApplicationIdS>\r\n    </Party>\r\n
-        \   <Party>\r\n      <PersonId>319178</PersonId>\r\n      <ApplicationId>010.2019.00056651.001
-        \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
-        \     <PartyRole>Applicant                               </PartyRole>\r\n
-        \     <FamilyName>Wilkinson                                         </FamilyName>\r\n
-        \     <GivenName>Heather Athene</GivenName>\r\n      <Initial>H A  </Initial>\r\n
-        \     <Title>GCC</Title>\r\n      <FullName> H A Wilkinson</FullName>\r\n
-        \     <Line1>47 The Serpentine Dr                    </Line1>\r\n      <Line2>BILGOLA
-        BEACH  NSW  2107                </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
-        </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00056651.001</ApplicationIdS>\r\n
-        \   </Party>\r\n    <Party>\r\n      <PersonId>319177</PersonId>\r\n      <ApplicationId>010.2019.00056651.001
+        \   <Party>\r\n      <PersonId>319177</PersonId>\r\n      <ApplicationId>010.2019.00056651.001
         \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
         \     <PartyRole>Applicant                               </PartyRole>\r\n
         \     <FamilyName>Wilkinson                                         </FamilyName>\r\n
@@ -12123,14 +12390,24 @@ http_interactions:
         \     <GeoRSS>-33.437103 151.383136</GeoRSS>\r\n      <LatLng>-33.437103,151.383136</LatLng>\r\n
         \     <StreetName>The Entrance Road</StreetName>\r\n      <Line1>197  The
         Entrance Road</Line1>\r\n      <Line2>ERINA NSW 2250</Line2>\r\n      <ApplicationIdS>010.2019.00056652.001</ApplicationIdS>\r\n
-        \   </Address>\r\n    <Party>\r\n      <PersonId>319178</PersonId>\r\n      <ApplicationId>010.2019.00056652.001
+        \   </Address>\r\n    <Party>\r\n      <PersonId>319177</PersonId>\r\n      <ApplicationId>010.2019.00056652.001
         \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
         \     <PartyRole>Applicant                               </PartyRole>\r\n
         \     <FamilyName>Wilkinson                                         </FamilyName>\r\n
-        \     <GivenName>Heather Athene</GivenName>\r\n      <Initial>H A  </Initial>\r\n
-        \     <Title>GCC</Title>\r\n      <FullName> H A Wilkinson</FullName>\r\n
+        \     <GivenName>Keith Robert</GivenName>\r\n      <Initial>K R  </Initial>\r\n
+        \     <Title>GCC</Title>\r\n      <FullName> K R Wilkinson</FullName>\r\n
         \     <Line1>47 The Serpentine Dr                    </Line1>\r\n      <Line2>BILGOLA
         BEACH  NSW  2107                </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
+        </TelephoneNumber>\r\n      <EmailAddress>keith@nst.net.au                                                                                                                </EmailAddress>\r\n
+        \     <ApplicationIdS>010.2019.00056652.001</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Party>\r\n      <PersonId>367440</PersonId>\r\n      <ApplicationId>010.2019.00056652.001
+        \                            </ApplicationId>\r\n      <lnk_typ>861</lnk_typ>\r\n
+        \     <PartyRole>Principal Certifying Authority          </PartyRole>\r\n
+        \     <FamilyName>Blackett Maguire &amp; Goldsmith                      </FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <Title>CO</Title>\r\n
+        \     <FullName> Blackett Maguire &amp; Goldsmith</FullName>\r\n      <Line1>PO
+        BOX 167                              </Line1>\r\n      <Line2>BROADWAY  NSW
+        \ 2007                     </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
         </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00056652.001</ApplicationIdS>\r\n
         \   </Party>\r\n    <Party>\r\n      <PersonId>489414</PersonId>\r\n      <ApplicationId>010.2019.00056652.001
         \                            </ApplicationId>\r\n      <lnk_typ>852</lnk_typ>\r\n
@@ -12142,26 +12419,16 @@ http_interactions:
         \     <TelephoneNumber> 0299405367</TelephoneNumber>\r\n      <EmailAddress>info@precisiondemolition.com.au
         \                                                                                                </EmailAddress>\r\n
         \     <ApplicationIdS>010.2019.00056652.001</ApplicationIdS>\r\n    </Party>\r\n
-        \   <Party>\r\n      <PersonId>367440</PersonId>\r\n      <ApplicationId>010.2019.00056652.001
-        \                            </ApplicationId>\r\n      <lnk_typ>861</lnk_typ>\r\n
-        \     <PartyRole>Principal Certifying Authority          </PartyRole>\r\n
-        \     <FamilyName>Blackett Maguire &amp; Goldsmith                      </FamilyName>\r\n
-        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <Title>CO</Title>\r\n
-        \     <FullName> Blackett Maguire &amp; Goldsmith</FullName>\r\n      <Line1>PO
-        BOX 167                              </Line1>\r\n      <Line2>BROADWAY  NSW
-        \ 2007                     </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
-        </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00056652.001</ApplicationIdS>\r\n
-        \   </Party>\r\n    <Party>\r\n      <PersonId>319177</PersonId>\r\n      <ApplicationId>010.2019.00056652.001
+        \   <Party>\r\n      <PersonId>319178</PersonId>\r\n      <ApplicationId>010.2019.00056652.001
         \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
         \     <PartyRole>Applicant                               </PartyRole>\r\n
         \     <FamilyName>Wilkinson                                         </FamilyName>\r\n
-        \     <GivenName>Keith Robert</GivenName>\r\n      <Initial>K R  </Initial>\r\n
-        \     <Title>GCC</Title>\r\n      <FullName> K R Wilkinson</FullName>\r\n
+        \     <GivenName>Heather Athene</GivenName>\r\n      <Initial>H A  </Initial>\r\n
+        \     <Title>GCC</Title>\r\n      <FullName> H A Wilkinson</FullName>\r\n
         \     <Line1>47 The Serpentine Dr                    </Line1>\r\n      <Line2>BILGOLA
         BEACH  NSW  2107                </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
-        </TelephoneNumber>\r\n      <EmailAddress>keith@nst.net.au                                                                                                                </EmailAddress>\r\n
-        \     <ApplicationIdS>010.2019.00056652.001</ApplicationIdS>\r\n    </Party>\r\n
-        \ </Application>\r\n  <Application>\r\n    <ApplicationId>010.2019.00056653.001
+        </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00056652.001</ApplicationIdS>\r\n
+        \   </Party>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>010.2019.00056653.001
         </ApplicationId>\r\n    <NatureOfApplication>Complying Development Cert.</NatureOfApplication>\r\n
         \   <NatureOfApplicationType>10</NatureOfApplicationType>\r\n    <Category>Pergola
         \                                </Category>\r\n    <ReferenceNumber>010.2019.00056653.001
@@ -12204,17 +12471,26 @@ http_interactions:
         \     <GeoRSS>-33.442781 151.376405</GeoRSS>\r\n      <LatLng>-33.442781,151.376405</LatLng>\r\n
         \     <StreetName>White Cedar Close</StreetName>\r\n      <Line1>11  White
         Cedar Close</Line1>\r\n      <Line2>GREEN POINT NSW 2251</Line2>\r\n      <ApplicationIdS>010.2019.00056653.001</ApplicationIdS>\r\n
-        \   </Address>\r\n    <Party>\r\n      <PersonId>201388</PersonId>\r\n      <ApplicationId>010.2019.00056653.001
+        \   </Address>\r\n    <Party>\r\n      <PersonId>201387</PersonId>\r\n      <ApplicationId>010.2019.00056653.001
         \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
         \     <PartyRole>Applicant                               </PartyRole>\r\n
         \     <FamilyName>Eliasson                                          </FamilyName>\r\n
-        \     <GivenName>Rosemarie Josina</GivenName>\r\n      <Initial>R J  </Initial>\r\n
-        \     <Title>GCC</Title>\r\n      <FullName> R J Eliasson</FullName>\r\n      <Line1>11
+        \     <GivenName>Gary Edward</GivenName>\r\n      <Initial>G E  </Initial>\r\n
+        \     <Title>GCC</Title>\r\n      <FullName> G E Eliasson</FullName>\r\n      <Line1>11
         White Cedar Close                    </Line1>\r\n      <Line2>GREEN POINT
         \ NSW  2251                  </Line2>\r\n      <Line3 xml:space=\"preserve\">
         \                                       </Line3>\r\n      <TelephoneNumber
         xml:space=\"preserve\"> </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00056653.001</ApplicationIdS>\r\n
-        \   </Party>\r\n    <Party>\r\n      <PersonId>489415</PersonId>\r\n      <ApplicationId>010.2019.00056653.001
+        \   </Party>\r\n    <Party>\r\n      <PersonId>318291</PersonId>\r\n      <ApplicationId>010.2019.00056653.001
+        \                            </ApplicationId>\r\n      <lnk_typ>861</lnk_typ>\r\n
+        \     <PartyRole>Principal Certifying Authority          </PartyRole>\r\n
+        \     <FamilyName>Con-Cert Pty Ltd                                  </FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <Title>CO</Title>\r\n
+        \     <FullName> Con-Cert Pty Ltd</FullName>\r\n      <Line1>PO Box 3685                             </Line1>\r\n
+        \     <Line2>WAMBERAL  NSW  2260                     </Line2>\r\n      <TelephoneNumber>
+        4384 4007</TelephoneNumber>\r\n      <EmailAddress>con-cert@bigpond.com                                                                                                            </EmailAddress>\r\n
+        \     <ApplicationIdS>010.2019.00056653.001</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Party>\r\n      <PersonId>489415</PersonId>\r\n      <ApplicationId>010.2019.00056653.001
         \                            </ApplicationId>\r\n      <lnk_typ>852</lnk_typ>\r\n
         \     <PartyRole>Builder                                 </PartyRole>\r\n
         \     <FamilyName>Cladding and Roofing                              </FamilyName>\r\n
@@ -12225,21 +12501,12 @@ http_interactions:
         \     <TelephoneNumber xml:space=\"preserve\"> </TelephoneNumber>\r\n      <EmailAddress>humourbear.mv@gmail.com
         \                                                                                                        </EmailAddress>\r\n
         \     <ApplicationIdS>010.2019.00056653.001</ApplicationIdS>\r\n    </Party>\r\n
-        \   <Party>\r\n      <PersonId>318291</PersonId>\r\n      <ApplicationId>010.2019.00056653.001
-        \                            </ApplicationId>\r\n      <lnk_typ>861</lnk_typ>\r\n
-        \     <PartyRole>Principal Certifying Authority          </PartyRole>\r\n
-        \     <FamilyName>Con-Cert Pty Ltd                                  </FamilyName>\r\n
-        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <Title>CO</Title>\r\n
-        \     <FullName> Con-Cert Pty Ltd</FullName>\r\n      <Line1>PO Box 3685                             </Line1>\r\n
-        \     <Line2>WAMBERAL  NSW  2260                     </Line2>\r\n      <TelephoneNumber>
-        4384 4007</TelephoneNumber>\r\n      <EmailAddress>con-cert@bigpond.com                                                                                                            </EmailAddress>\r\n
-        \     <ApplicationIdS>010.2019.00056653.001</ApplicationIdS>\r\n    </Party>\r\n
-        \   <Party>\r\n      <PersonId>201387</PersonId>\r\n      <ApplicationId>010.2019.00056653.001
+        \   <Party>\r\n      <PersonId>201388</PersonId>\r\n      <ApplicationId>010.2019.00056653.001
         \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
         \     <PartyRole>Applicant                               </PartyRole>\r\n
         \     <FamilyName>Eliasson                                          </FamilyName>\r\n
-        \     <GivenName>Gary Edward</GivenName>\r\n      <Initial>G E  </Initial>\r\n
-        \     <Title>GCC</Title>\r\n      <FullName> G E Eliasson</FullName>\r\n      <Line1>11
+        \     <GivenName>Rosemarie Josina</GivenName>\r\n      <Initial>R J  </Initial>\r\n
+        \     <Title>GCC</Title>\r\n      <FullName> R J Eliasson</FullName>\r\n      <Line1>11
         White Cedar Close                    </Line1>\r\n      <Line2>GREEN POINT
         \ NSW  2251                  </Line2>\r\n      <Line3 xml:space=\"preserve\">
         \                                       </Line3>\r\n      <TelephoneNumber
@@ -12655,7 +12922,16 @@ http_interactions:
         \     <GeoRSS>-33.505134 151.315326</GeoRSS>\r\n      <LatLng>-33.505134,151.315326</LatLng>\r\n
         \     <StreetName>MacKenzie Avenue</StreetName>\r\n      <Line1>49  MacKenzie
         Avenue</Line1>\r\n      <Line2>WOY WOY NSW 2256</Line2>\r\n      <ApplicationIdS>012.2019.00056242.001</ApplicationIdS>\r\n
-        \   </Address>\r\n    <Party>\r\n      <PersonId>387479</PersonId>\r\n      <ApplicationId>012.2019.00056242.001
+        \   </Address>\r\n    <Party>\r\n      <PersonId>484167</PersonId>\r\n      <ApplicationId>012.2019.00056242.001
+        \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
+        \     <PartyRole>Applicant                               </PartyRole>\r\n
+        \     <FamilyName>Olovcic                                           </FamilyName>\r\n
+        \     <GivenName>Jenna </GivenName>\r\n      <Initial>J    </Initial>\r\n
+        \     <Title>GCC</Title>\r\n      <FullName> J Olovcic</FullName>\r\n      <Line1>14
+        High St                              </Line1>\r\n      <Line2>MOUNT KURING-GAI
+        \ NSW  2080             </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
+        </TelephoneNumber>\r\n      <ApplicationIdS>012.2019.00056242.001</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Party>\r\n      <PersonId>387479</PersonId>\r\n      <ApplicationId>012.2019.00056242.001
         \                            </ApplicationId>\r\n      <lnk_typ>852</lnk_typ>\r\n
         \     <PartyRole>Builder                                 </PartyRole>\r\n
         \     <FamilyName>Dare                                              </FamilyName>\r\n
@@ -12680,15 +12956,6 @@ http_interactions:
         \     <FamilyName>Loo                                               </FamilyName>\r\n
         \     <GivenName>Davy Ee Chung</GivenName>\r\n      <Initial>D E  </Initial>\r\n
         \     <Title>GCC</Title>\r\n      <FullName> D E Loo</FullName>\r\n      <Line1>14
-        High St                              </Line1>\r\n      <Line2>MOUNT KURING-GAI
-        \ NSW  2080             </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
-        </TelephoneNumber>\r\n      <ApplicationIdS>012.2019.00056242.001</ApplicationIdS>\r\n
-        \   </Party>\r\n    <Party>\r\n      <PersonId>484167</PersonId>\r\n      <ApplicationId>012.2019.00056242.001
-        \                            </ApplicationId>\r\n      <lnk_typ>851</lnk_typ>\r\n
-        \     <PartyRole>Applicant                               </PartyRole>\r\n
-        \     <FamilyName>Olovcic                                           </FamilyName>\r\n
-        \     <GivenName>Jenna </GivenName>\r\n      <Initial>J    </Initial>\r\n
-        \     <Title>GCC</Title>\r\n      <FullName> J Olovcic</FullName>\r\n      <Line1>14
         High St                              </Line1>\r\n      <Line2>MOUNT KURING-GAI
         \ NSW  2080             </Line2>\r\n      <TelephoneNumber xml:space=\"preserve\">
         </TelephoneNumber>\r\n      <ApplicationIdS>012.2019.00056242.001</ApplicationIdS>\r\n
