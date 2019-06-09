@@ -20,12 +20,12 @@ page.search("Application").each do |app|
 
   record = {
     "council_reference" => council_reference,
+    "description" => description,
     "date_received" => Date.parse(app.at('LodgementDate').inner_text).to_s,
-    "date_scraped" => Date.today.to_s,
-    "info_url" => base_url + "/SearchApplication.aspx?id=" + council_reference,
     # Only use the first address
     "address" => app.at('Address Line1').inner_text + ", " + app.at('Address Line2').inner_text,
-    "description" => description
+    "date_scraped" => Date.today.to_s,
+    "info_url" => base_url + "/SearchApplication.aspx?id=" + council_reference
   }
 
   #p record
